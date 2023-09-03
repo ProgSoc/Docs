@@ -103,8 +103,9 @@ nav:
   - Events: 
     - events/index.md
     - 2023:
-      - Full Stack Web Development: events/2023/full-stack-web-development.md
       - Git Workshop: events/2023/git-workshop.md
+      - Full Stack Web Development: events/2023/full-stack-web-development.md
+      - UTS Tech Fest Programming Competition: events/2023/programming-competition.md
     - 2022:
       - Git Workshop: events/2022/git.md
       - React: events/2022/react.md
