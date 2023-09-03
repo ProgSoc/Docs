@@ -108,6 +108,7 @@ nav:
     - events/index.md
     - 2023:
       - Full Stack Web Development: events/2023/full-stack-web-development.md
+      - Git Workshop: events/2023/git-workshop.md
     - 2022:
       - React: events/2022/react.md
   - About: 
