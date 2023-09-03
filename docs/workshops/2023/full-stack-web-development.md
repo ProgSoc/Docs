@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # Full Stack Web Development Workshop
 
 ## Intro
