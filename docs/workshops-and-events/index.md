@@ -1,5 +1,5 @@
 ---
-title: Workshops
+title: Workshops and Events
 description: ProgSoc runs workshops on topics that we are passionate about. These workshops are normally run by members of ProgSoc, but we also have guest speakers from time to time.
 ---
 
