@@ -22,7 +22,7 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `30/03` Introduction to Git
 - `15/04` Study Jam
 - `16/08` [React.js Workshop](./2022/react.md)
-- `23/08` Rust Workshop
+- `23/08` [Rust Workshop](./2022/rust.md)
 - `08/09` Docker Workshop
 - `30/09` Study Jam
 - `22/10` AGM

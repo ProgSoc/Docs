@@ -111,6 +111,7 @@ nav:
       - Git Workshop: events/2023/git-workshop.md
     - 2022:
       - React: events/2022/react.md
+      - Rust: events/2022/rust.md
   - About: 
      - What We Do: about/what-we-do.md
      - Constitution: about/constitution.md
