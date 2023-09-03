@@ -9,19 +9,23 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 
 ## 2023
 
+- `15/02` O'Day Semester 1
 - `23/02` Welcome Drinks
 - `09/03` Introduction to Programming (Java)
 - `22/03` [Git Workshop](./2023/git-workshop.md)
 - `11/05` [Full Stack Web Development (Part 1)](./2023/full-stack-web-development.md)
 - `18/05` Full Stack Web Development (Part 2)
 - `21/06` [UTS Tech Festival Programming Competition](./2023/programming-competition.md)
+- `02/08` O'Day Semester 2
 - `25/08` Introduction to Docker
 - `08/09` Introduction to Rust
 
 ## 2022
 
+- `14/02` O'Day Semester 1
 - `30/03` [Introduction to Git](./2022/git.md)
 - `15/04` Study Jam
+- `28/07` O'Day Semester 2
 - `16/08` [React.js Workshop](./2022/react.md)
 - `23/08` [Rust Workshop](./2022/rust.md)
 - `08/09` Docker Workshop
