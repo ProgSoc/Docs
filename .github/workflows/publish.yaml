@@ -5,7 +5,6 @@ on:
       - master 
       - main
 
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
