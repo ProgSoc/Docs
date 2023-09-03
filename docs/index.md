@@ -1,27 +1,9 @@
 ---
-comments: true
+comments: false
 ---
 
-# Welcome to MkDocs
+# Welcome to the ProgSoc Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the ProgSoc documentation site. It is a work in progress, and will be updated with our current projects and workshop content.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-```rs
-pub fn main () {
-    println!("Hello, world!");
-}
-```
+It's open to contributions if you feel we made a mistake or if you want to add something.
