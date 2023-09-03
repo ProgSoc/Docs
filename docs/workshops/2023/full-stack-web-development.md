@@ -1,5 +1,7 @@
 ---
 comments: true
+title: Full Stack Web Development
+summary: In this workshop we’ll be learning how to build a full-stack application using common practices and modern tooling unlike you’ll find at UTS.
 ---
 # Full Stack Web Development Workshop
 

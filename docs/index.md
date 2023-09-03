@@ -1,5 +1,7 @@
 ---
 comments: false
+title: Welcome
+summary: Welcome to the ProgSoc Docs
 ---
 
 # Welcome to the ProgSoc Docs
