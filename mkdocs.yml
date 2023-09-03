@@ -105,6 +105,7 @@ nav:
     - projects/index.md
     - ProgBot: projects/progbot.md
     - Voting System: projects/voting-system.md
+    - Docs: projects/docs.md
   - Workshops: 
     - workshops/index.md
     - 2023:

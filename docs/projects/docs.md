@@ -1,0 +1,1 @@
+--8<-- "https://raw.githubusercontent.com/ProgSoc/Docs/main/README.md"
