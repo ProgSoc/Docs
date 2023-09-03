@@ -1,10 +1,10 @@
 # 2023 Full Stack Web Development Workshop
 
-# Intro
+## Intro
 
 Welcome to the ProgSoc T3 Workshop, in this workshop we’ll be learning how to build a full-stack application using common practices and modern tooling unlike you’ll find at UTS. 
 
-## What You’ll Learn
+### What You’ll Learn
 
 This describes the different goals of the workshop.
 
@@ -18,7 +18,7 @@ This describes the different goals of the workshop.
 - Connecting to a database and CRUD
 - Application Styling
 
-## Picking an Idea
+### Picking an Idea
 
 In the second part of this workshop, we’ll look at developing our own application using the concepts talked about above. What’s important to do is to choose what type of application you would like to develop. 
 
@@ -28,7 +28,7 @@ If you’re stuck for ideas here are a few:
 - ********Todo******** - The classic starter project. A page that has a list of to-do items belonging to a specific user.
 - **********Notes********** - A note-taking application where a user can create a note (similar to google keep or apple notes)
 
-## Links
+### Links
 
 Links to different tools and libraries that our project is going to use.
 
@@ -48,9 +48,9 @@ Links to different tools and libraries that our project is going to use.
 
 [tRPC - Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | tRPC](https://trpc.io/)
 
-# Table of Contents
+## Table of Contents
 
-# Pre-Workshop
+## Pre-Workshop
 
 [Modern Web Development: an installation guide](https://progsoc.org/blog/modern-web-development-installation-guide/)
 
@@ -73,7 +73,7 @@ Once `Yarn`, `Nodejs`, `Git` and `VSCode` are installed and ready for developmen
 
 </aside>
 
-# Project Setup
+## Project Setup
 
 For this workshop, we’re using the `T3 stack` which is a combination of different packages and tools that try to streamline the creation. For this project we’ll be looking at all the different features that `T3` can setup for us. Including Authentication, Database, Styling, and API communication using `tRPC`.
 
@@ -87,7 +87,7 @@ Here I’ve chosen nextAuth (Authentication), Prisma (Database ORM), Tailwind (S
 
 ![Untitled](./images/Untitled.png)
 
-## File Structure
+### File Structure
 
 Once you’ve opened VSCode or your chosen editor in the folder you should see something like this:
 
@@ -109,17 +109,17 @@ Below that are our `styles` and `utils` folders which are pretty self-explanator
 
 The rest of the project at the top level are different configuration files for different developer tools like `ESLint` and `Prettier` for code `linting` and formatting.
 
-# The Stack
+## The Stack
 
-## tRPC
+### tRPC
 
-### What is RPC?
+#### What is RPC?
 
 If you’ve ever looked at game or API design in depth you might have come across RPC (Remote Procedure Call). Though API design doesn’t specifically use `tRPC` (TypeScript RPC) it normally uses gRPC or similar. 
 
 RPC generally means that your frontend application instead of calling an API route calls a function, not a route. This means that the function call on the client needs to know which values to send to the server in order to run the function. 
 
-### Introducing tRPC!
+#### Introducing tRPC!
 
 This is where `tRPC` comes in. Because we’re using TypeScript on both the client and the server for our application we can export only the `Type` from the server, meaning that our server code isn’t exposed to the client but the data it requires is.
 
@@ -131,7 +131,7 @@ This allows us to easily link what’s happening on the front end of our app to 
 
 [tRPC - Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | tRPC](https://trpc.io/)
 
-## Database (Prisma ORM)
+### Database (Prisma ORM)
 
 Every good application has a database behind it. In most cases, this will be hosted separately but for this demo, we’ll be using SQLite (a file-based database). 
 
@@ -245,13 +245,13 @@ This example will find all items in the `example` table in the database.
 
 In this instance, our database is also storing our session information and our users that log into the application.
 
-## Authentication & Authorization
+### Authentication & Authorization
 
-### Intro
+#### Intro
 
 Authentication is essential for any application on the internet as users normally have to be able to use an account to sign in with a service and identify them. Using NextAuth we can setup basic authentication including sign-in and signup pages using different services that expose an `OAuth` API.
 
-### NextAuth
+#### NextAuth
 
 In the above example, you may have noticed `protectedProcedure` which is a protected Remote Procedure Call that is only allowed if the user is logged in.
 
@@ -263,7 +263,7 @@ What this also allows us to do is make sure that only certain people with certai
 
 Because it was designed to work with NextJS NextAuth also exposes several useful functions that we can use to tell if the user is authenticated or not.
 
-### Authentication vs Authorization
+#### Authentication vs Authorization
 
 Though these two words are very similar they couldn’t be more different.
 
@@ -271,7 +271,7 @@ Though these two words are very similar they couldn’t be more different.
 
 In the default template, we’re not doing any **************************Authorization************************** but we are doing ****************************Authentication.**************************** If we wanted to do Authorization then we might make it so that a user has a role depending on the permissions that they should have. e.g. `staff`, `admin`, or `customer`.
 
-## UI & Styling
+### UI & Styling
 
 When it comes to making an application there are many different options when it comes to making a user interface. Some of these include:
 
@@ -287,7 +287,7 @@ Last year I ran a React workshop and dove relatively deep into state management 
 
 [React Workshop](https://www.notion.so/React-Workshop-71b3a82705364357ac14d3e131f0e1f0?pvs=21)
 
-### React
+#### React
 
 React is a framework for Client and Server applications used to make websites more interactive.
 
@@ -299,7 +299,7 @@ React will also handle UI updates. So if a bunch of different components in the 
 
 In a React component, you can use HTML elements like you normally would in an HTML file as well.
 
-### NextJS
+#### NextJS
 
 NextJS is a full-stack framework that *******extends******* React’s default behavior with advanced techniques and tools. It has the ability to do not only everything that React is capable of but even more through the use of its parent company’s (Vercel) CDN and API/Edge routes. 
 
@@ -307,7 +307,7 @@ This allows us to make an API for our NextJS app without having to deploy a sepa
 
 Another advantage of having a CDN and Framework like this tied so closely together is that the framework can allow for all sorts of custom features. Chief among them is **Server Side Rendering**.
 
-### Server Side Rendering (SSR) vs Client Side Rendering
+#### Server Side Rendering (SSR) vs Client Side Rendering
 
 When you look at a website on the internet the odds that it’s rendered server side are quite high. An example of pure Server Side Rendering is PHP-based sites like WordPress. They do all the checks and work on the back-end and then send the result to the user. No processing happens on the user side of the link as it’s all rendered on the server.
 
@@ -317,7 +317,7 @@ The main benefit of SSR over CSR is that it makes the site a lot faster. Rather 
 
 In the context of NextJS, it sends the first page you go on using SSR so the first load is really fast, then because that page is already loaded it loads the rest of the code for other bits of the site in the background, this creates a really responsive site that loads really fast initially then seems to load almost instantly as you move around different pages.
 
-### Styling Using Tailwind
+#### Styling Using Tailwind
 
 When it comes to making your HTML look pretty and giving boxes nice rounded corners and a nice colour scheme you typically learn to use CSS but if you want to make it easier to experiment without having to swap between files often you can use TailwindCSS.
 
@@ -325,7 +325,7 @@ It takes all the properties you would normally use in a CSS file and makes each 
 
 [https://tailwindcss.com/](https://tailwindcss.com/)
 
-# Building your application
+## Building your application
 
 <aside>
 💡 Make sure you have NodeJS, Git and Yarn installed (instructions above)
@@ -347,9 +347,9 @@ This should bring you to a wizard where you’ll select the different components
 After the install wizard has completed follow the steps at the end to install the project’s dependencies and start up the dev server with 
 
 ```bash
-cd <projectName>     # Go into the right folder
-yarn prisma db push  # Initialise your database
-yarn dev             # Start the development server
+cd <projectName>     ## Go into the right folder
+yarn prisma db push  ## Initialise your database
+yarn dev             ## Start the development server
 ```
 
 From here if you open `[http://localhost:3000](http://localhost:3000)` in your browser you should see the default configuration running. 
@@ -366,7 +366,7 @@ There are a few limitations to using a pre-fill authentication solution like thi
 
 What this does provide however is a simple setup for most applications that require authentication.
 
-# Appendix
+## Appendix
 
 - **T3** - [https://create.t3.gg/](https://create.t3.gg/) - A starter template for a full-stack application
 - **Stack** - Combination of different technologies normally consisting of an OS, database, API layer, and client.
