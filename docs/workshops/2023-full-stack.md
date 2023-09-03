@@ -24,9 +24,9 @@ In the second part of this workshop, we’ll look at developing our own applicat
 
 If you’re stuck for ideas here are a few:
 
-- ******************Guestbook****************** - Basically a page where people can post a short message after signing in and people who aren’t signed in can see the list of messages on a guest book page.
-- ********Todo******** - The classic starter project. A page that has a list of to-do items belonging to a specific user.
-- **********Notes********** - A note-taking application where a user can create a note (similar to google keep or apple notes)
+- **Guestbook** - Basically a page where people can post a short message after signing in and people who aren’t signed in can see the list of messages on a guest book page.
+- **Todo** - The classic starter project. A page that has a list of to-do items belonging to a specific user.
+- **Notes** - A note-taking application where a user can create a note (similar to google keep or apple notes)
 
 ### Links
 
@@ -69,7 +69,7 @@ After you’ve done that please make sure to install `yarn`, the preferred packa
 Once `Yarn`, `Nodejs`, `Git` and `VSCode` are installed and ready for development you’re good to continue.
 
 <aside>
-💡 **********************Optional:********************** If you’re on Windows you can opt to use WSL by following the Modern Web Development installation guide linked above.
+💡 **Optional:** If you’re on Windows you can opt to use WSL by following the Modern Web Development installation guide linked above.
 
 </aside>
 
@@ -259,7 +259,7 @@ In this case, our authentication is managed by a library called `NextAuth` which
 
 It manages the configuration for different authentication providers like GitHub or Discord (Project Default). It also connects to our database and stores important information like the users’ access and refresh tokens. Allowing us to get certain details about the user when they sign in.
 
-What this also allows us to do is make sure that only certain people with certain roles can perform certain actions by *********protecting********* procedure calls as seen above. 
+What this also allows us to do is make sure that only certain people with certain roles can perform certain actions by **protecting** procedure calls as seen above. 
 
 Because it was designed to work with NextJS NextAuth also exposes several useful functions that we can use to tell if the user is authenticated or not.
 
@@ -267,9 +267,9 @@ Because it was designed to work with NextJS NextAuth also exposes several useful
 
 Though these two words are very similar they couldn’t be more different.
 
-**Authentication** is making sure a user is who they say they are whereas **************************Authorization************************** is making sure that a user has permission to perform certain actions.
+**Authentication** is making sure a user is who they say they are whereas **Authorization** is making sure that a user has permission to perform certain actions.
 
-In the default template, we’re not doing any **************************Authorization************************** but we are doing ****************************Authentication.**************************** If we wanted to do Authorization then we might make it so that a user has a role depending on the permissions that they should have. e.g. `staff`, `admin`, or `customer`.
+In the default template, we’re not doing any **Authorization** but we are doing **Authentication.** If we wanted to do Authorization then we might make it so that a user has a role depending on the permissions that they should have. e.g. `staff`, `admin`, or `customer`.
 
 ### UI & Styling
 
@@ -295,13 +295,13 @@ Using a traditional approach in vanilla javascript you might get the element by 
 
 This can become tedious when there are many different pages that use the same set of components. React allows us to create reusable sections of code called “Components”. A component can include logic that allows us to change how it behaves. e.g. a to-do item component might allow us to edit the text inside it and delete/update it.
 
-React will also handle UI updates. So if a bunch of different components in the app all update at once it’ll make them part of one large batch update. This handling of dynamic data is typically called *****state*****. 
+React will also handle UI updates. So if a bunch of different components in the app all update at once it’ll make them part of one large batch update. This handling of dynamic data is typically called *state*. 
 
 In a React component, you can use HTML elements like you normally would in an HTML file as well.
 
 #### NextJS
 
-NextJS is a full-stack framework that *******extends******* React’s default behavior with advanced techniques and tools. It has the ability to do not only everything that React is capable of but even more through the use of its parent company’s (Vercel) CDN and API/Edge routes. 
+NextJS is a full-stack framework that *extends* React’s default behavior with advanced techniques and tools. It has the ability to do not only everything that React is capable of but even more through the use of its parent company’s (Vercel) CDN and API/Edge routes. 
 
 This allows us to make an API for our NextJS app without having to deploy a separate service.
 
@@ -372,23 +372,23 @@ What this does provide however is a simple setup for most applications that requ
 - **Stack** - Combination of different technologies normally consisting of an OS, database, API layer, and client.
 - **Git** - Source control software for managing code versions
 - **tRPC** - Type-Safe communication between your API and your client
-- ****RPC**** - Remote Procedure Call
+- **RPC** - Remote Procedure Call
 - **NextJS** - Web Development Framework based on React
 - **Yarn** - Package Manager
 - **NodeJS** - A runtime that allows us to run JavaScript outside of the browser
 - **TypeScript** - Basically enhanced JavaScript that has stricter rules that prevent errors during the development process.
-- ******Zod****** - Schema Verification. Making sure inputs like forms follow certain rules.
-- ****************Tailwind**************** - UI Toolkit
-- ********************************TSX******************************** - TypeScript React Files that allow the use of React Components.
-- ********TS******** - TypeScript files (cannot use React components)
-- **************Linter************** - A tool that makes sure your code follows certain formatting rules
-- **************ESLint************** - A linter for TypeScript and JavaScript files
-- ******************Prettier****************** - A code formatter
-- ******************Prisma******************  - Database ORM (Object Relational Mapping) that allows us to connect and communicate with our database in code. ************************************
-- ****ORM**** - Object Relational Mapping
-- ************Regex************ - Short for regular expression is *a sequence of characters that specifies a match pattern in text.*
-- ******SSR****** - Server Side Rendering. Send only html without javascript to the client.
-- ************SQLite************ - A light version of SQL that writes to a file instead of an installed database. Useful for non-production environments.
-- **********OAuth********** - Authentication Protocol for integrating authentication into 3rd party apps. e.g. Login with Google or Login with Discord.
-- ******************Component****************** - A Reusable Section of React Code
-- **********State********** - An object that holds data that determines how a component renders and behaves. State is used to manage dynamic data in a component and allows the component to update its rendering based on changes to the data.
+- **Zod** - Schema Verification. Making sure inputs like forms follow certain rules.
+- **Tailwind** - UI Toolkit
+- **TSX** - TypeScript React Files that allow the use of React Components.
+- **TS** - TypeScript files (cannot use React components)
+- **Linter** - A tool that makes sure your code follows certain formatting rules
+- **ESLint** - A linter for TypeScript and JavaScript files
+- **Prettier** - A code formatter
+- **Prisma**  - Database ORM (Object Relational Mapping) that allows us to connect and communicate with our database in code. **
+- **ORM** - Object Relational Mapping
+- **Regex** - Short for regular expression is *a sequence of characters that specifies a match pattern in text.*
+- **SSR** - Server Side Rendering. Send only html without javascript to the client.
+- **SQLite** - A light version of SQL that writes to a file instead of an installed database. Useful for non-production environments.
+- **OAuth** - Authentication Protocol for integrating authentication into 3rd party apps. e.g. Login with Google or Login with Discord.
+- **Component** - A Reusable Section of React Code
+- **State** - An object that holds data that determines how a component renders and behaves. State is used to manage dynamic data in a component and allows the component to update its rendering based on changes to the data.
