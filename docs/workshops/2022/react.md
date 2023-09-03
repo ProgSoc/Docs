@@ -1,7 +1,7 @@
 ---
 comments: true
 title: React
-summary: React is an industry standard JavaScript library for building user interfaces. This workshop covers the basics of how it works.
+description: React is an industry standard JavaScript library for building user interfaces. This workshop covers the basics of how it works.
 ---
 
 # React Workshop

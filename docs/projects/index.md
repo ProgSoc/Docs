@@ -1,6 +1,6 @@
 ---
 title: Projects
-summary: ProgSoc has a number of projects that are currently in development. These projects are open source and contributions are welcome.
+description: ProgSoc has a number of projects that are currently in development. These projects are open source and contributions are welcome.
 ---
 
 # Projects

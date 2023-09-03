@@ -1,7 +1,7 @@
 ---
 comments: false
 title: Welcome
-summary: Welcome to the ProgSoc Docs
+description: Welcome to the ProgSoc Docs
 hide:
   - navigation
   - toc
