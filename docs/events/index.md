@@ -13,7 +13,7 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `09/03` Introduction to Programming (Java)
 - `22/03` [Git Workshop](./2023/git-workshop.md)
 - `11/05` [Full Stack Web Dev](./2023/full-stack-web-development.md)
-- `21/06` UTS Tech Festival Programming Competition
+- `21/06` [UTS Tech Festival Programming Competition](./2023/programming-competition.md)
 - `25/08` Introduction to Docker
 - `08/09` Introduction to Rust
 
@@ -25,4 +25,4 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `23/08` [Rust Workshop](./2022/rust.md)
 - `08/09` Docker Workshop
 - `30/09` Study Jam
-- `22/10` AGM
+- `22/10` [AGM](./2022/agm.md)
