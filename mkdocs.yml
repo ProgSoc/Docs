@@ -106,6 +106,7 @@ nav:
       - Full Stack Web Development: events/2023/full-stack-web-development.md
       - Git Workshop: events/2023/git-workshop.md
     - 2022:
+      - Git Workshop: events/2022/git.md
       - React: events/2022/react.md
       - Rust: events/2022/rust.md
   - About: 

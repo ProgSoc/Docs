@@ -125,17 +125,17 @@ https://github.com/ProgSoc/git-workshop-project
 
 When clicking a file in GitHub, make sure you click the "Raw" view to see raw content (for the .md file).
 
-![](../../assets/images/workshops/2022-git/image-4.png)
+![](../../assets/images/workshops/2023-git/image-4.png)
 
 In the end, you should have something like this:
 
-![](../../assets/images/workshops/2022-git/image-5.png)
+![](../../assets/images/workshops/2023-git/image-5.png)
 
 ### Initializing git
 
 Run `git init` in the terminal to initialize the repository, or click "Initialize Repository" in the git tab in VS Code
 
-![](../../assets/images/workshops/2022-git/image-6.png)
+![](../../assets/images/workshops/2023-git/image-6.png)
 
 The git tab
 ### Committing the initial files
@@ -240,7 +240,7 @@ To create a pull request, you can click this button in GitHub:
 ![](https://lh4.googleusercontent.com/-Bl37cViajkJ2W1cwHefB1YmYODmqvO7jIoVmr13kPEvH6JbOzK_PMS6GM1gu8VixlgIllbejZFAJ3tvpBMNVZqWwg-3XHo2XaKvRfz3MC2XbN6aAS_xnUQeo-Gag749ZQu9i8bBNgM7bAZS45vvkMR86Q=s2048)
 
 Or click select the branch, then click this:
-![](__GHOST_URL__/content/images/2023/03/image-7.png)
+![](../../assets/images/workshops/2023-git/image-7.png)
 Or go to the general branches tab and press "Open pull request" next to the branch.
 
 Next, you can add the pull request information:
