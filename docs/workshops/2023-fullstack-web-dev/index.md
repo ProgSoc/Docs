@@ -1,4 +1,4 @@
-# T3 Workshop
+# 2023 Full Stack Web Development Workshop
 
 # Intro
 
