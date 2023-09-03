@@ -1,17 +1,21 @@
 site_name: ProgSoc Docs
 copyright: Copyright &copy; ProgSoc
-
+repo_url: ProgSoc/Docs
 extra:
   generator: false
   
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/ProgSocWhite.png
   favicon: assets/BackgroundLogo.png
   font:
     code: Fira Code
   features:
     - content.code.copy
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
