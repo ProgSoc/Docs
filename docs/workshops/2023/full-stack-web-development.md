@@ -1,4 +1,4 @@
-# 2023 Full Stack Web Development Workshop
+# Full Stack Web Development Workshop
 
 ## Intro
 
