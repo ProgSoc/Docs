@@ -1,6 +1,6 @@
 site_name: ProgSoc Docs
 copyright: Copyright &copy; ProgSoc
-repo_url: ProgSoc/Docs
+repo_url: https://github.com/ProgSoc/Docs
 extra:
   generator: false
   
