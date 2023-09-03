@@ -5,7 +5,6 @@ edit_uri: edit/main/docs/
 site_url: https://docs.progsoc.org
 
 extra:
-  generator: false
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.progsoc.org
@@ -95,8 +94,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-revision-date-localized:
-      enable_creation_date: true
+  - git-revision-date-localized
   - tags
 
 nav:
@@ -106,12 +104,12 @@ nav:
     - ProgBot: projects/progbot.md
     - Voting System: projects/voting-system.md
     - Docs: projects/docs.md
-  - Workshops: 
-    - workshops/index.md
+  - Events: 
+    - events/index.md
     - 2023:
-      - Full Stack Web Development: workshops/2023/full-stack-web-development.md
+      - Full Stack Web Development: events/2023/full-stack-web-development.md
     - 2022:
-      - React: workshops/2022/react.md
+      - React: events/2022/react.md
   - About: 
      - What We Do: about/what-we-do.md
      - Constitution: about/constitution.md

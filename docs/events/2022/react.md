@@ -1,6 +1,7 @@
 ---
 comments: true
-title: React
+title: React Workshop
+date: 2022-08-16
 description: React is an industry standard JavaScript library for building user interfaces. This workshop covers the basics of how it works.
 tags:
     - Workshop
