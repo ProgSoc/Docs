@@ -1,6 +1,9 @@
 site_name: ProgSoc Docs
 copyright: Copyright &copy; ProgSoc
 repo_url: https://github.com/ProgSoc/Docs
+edit_uri: edit/main/docs/
+site_url: https://docs.progsoc.org
+
 extra:
   generator: false
   
@@ -15,6 +18,7 @@ theme:
     - content.code.copy
     - navigation.instant
     - navigation.tabs
+    - content.action.edit
     - navigation.tabs.sticky
   palette:
     - media: "(prefers-color-scheme)"
@@ -74,3 +78,6 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - social
