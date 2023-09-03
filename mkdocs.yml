@@ -97,6 +97,7 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+  - tags
 
 nav:
   - Welcome: index.md
@@ -104,12 +105,12 @@ nav:
     - projects/index.md
     - ProgBot: projects/progbot.md
     - Voting System: projects/voting-system.md
-  - Workshops and Events: 
-    - workshops-and-events/index.md
+  - Workshops: 
+    - workshops/index.md
     - 2023:
-      - Full Stack Web Development: workshops-and-events/2023/full-stack-web-development.md
+      - Full Stack Web Development: workshops/2023/full-stack-web-development.md
     - 2022:
-      - React: workshops-and-events/2022/react.md
+      - React: workshops/2022/react.md
 
 
 

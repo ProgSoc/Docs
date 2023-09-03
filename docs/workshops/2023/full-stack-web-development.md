@@ -2,6 +2,11 @@
 comments: true
 title: Full Stack Web Development
 description: In this workshop we’ll be learning how to build a full-stack application using common practices and modern tooling unlike you’ll find at UTS.
+tags:
+  - Workshop
+  - React
+  - TypeScript
+  - NextJS
 ---
 # Full Stack Web Development Workshop
 

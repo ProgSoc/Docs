@@ -2,6 +2,10 @@
 comments: true
 title: React
 description: React is an industry standard JavaScript library for building user interfaces. This workshop covers the basics of how it works.
+tags:
+    - Workshop
+    - React
+    - TypeScript
 ---
 
 # React Workshop
