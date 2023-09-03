@@ -85,13 +85,13 @@ This should result in a nice walkthrough where you can select the features you w
 
 Here I’ve chosen nextAuth (Authentication), Prisma (Database ORM), Tailwind (Styling) and tRPC
 
-![Untitled](../assets/images/workshops/2023-full-stack/Untitled.png)
+![Untitled](assets/images/workshops/2023-full-stack/Untitled.png)
 
 ### File Structure
 
 Once you’ve opened VSCode or your chosen editor in the folder you should see something like this:
 
-![Untitled](../assets/images/workshops/2023-full-stack/Untitled%201.png)
+![Untitled](assets/images/workshops/2023-full-stack/Untitled%201.png)
 
 Here we can see a few different folders and files that follow the names of the tools we’re using for this project.
 
@@ -352,7 +352,7 @@ yarn prisma db push  ## Initialise your database
 yarn dev             ## Start the development server
 ```
 
-From here if you open `[http://localhost:3000](http://localhost:3000)` in your browser you should see the default configuration running. 
+From here if you open [http://localhost:3000](http://localhost:3000) in your browser you should see the default configuration running. 
 
 By default the application is configured to allow login through Discord but by changing the `auth.tsx` file you can choose whichever authentication provider you want be it Email, GitHub, or any number of different solutions found in the extensive list here:
 
