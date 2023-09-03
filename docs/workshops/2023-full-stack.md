@@ -85,13 +85,13 @@ This should result in a nice walkthrough where you can select the features you w
 
 Here I’ve chosen nextAuth (Authentication), Prisma (Database ORM), Tailwind (Styling) and tRPC
 
-![Untitled](./images/Untitled.png)
+![Untitled](../assets/images/workshops/2023-full-stack/Untitled.png)
 
 ### File Structure
 
 Once you’ve opened VSCode or your chosen editor in the folder you should see something like this:
 
-![Untitled](./images/Untitled%201.png)
+![Untitled](../assets/images/workshops/2023-full-stack/Untitled%201.png)
 
 Here we can see a few different folders and files that follow the names of the tools we’re using for this project.
 
