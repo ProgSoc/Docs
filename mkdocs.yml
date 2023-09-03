@@ -97,3 +97,18 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+
+nav:
+  - Welcome: index.md
+  - Projects: 
+    - projects/index.md
+  - Workshops: 
+    - workshops/index.md
+    - 2023:
+      - Full Stack Web Development: workshops/2023/full-stack-web-development.md
+    - 2022:
+      - React: workshops/2022/react.md
+
+
+
+  - Constitution: about/constitution.md
