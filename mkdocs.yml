@@ -6,6 +6,15 @@ site_url: https://docs.progsoc.org
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.progsoc.org
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/progsoc_uts
+    - icon: fontawesome/brands/github
+      link: https://github.com/progsoc
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/progsocuts
   
 theme:
   name: material
@@ -25,6 +34,7 @@ theme:
     - toc.track
     - navigation.top
     - navigation.tracking
+    - navigation.footer
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
