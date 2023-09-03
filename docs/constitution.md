@@ -1,0 +1,1 @@
+--8<-- "https://raw.githubusercontent.com/ProgSoc/Constitution/main/CONSTITUTION.md"

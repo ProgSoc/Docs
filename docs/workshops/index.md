@@ -9,8 +9,8 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 
 ## 2023
 
-- [Full Stack Web Dev](./2023/full-stack-web-development)
+- [Full Stack Web Dev](./2023/full-stack-web-development.md)
 
 ## 2022
 
-- [React](./2022/react)
+- [React](./2022/react.md)

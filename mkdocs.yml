@@ -20,6 +20,11 @@ theme:
     - navigation.tabs
     - content.action.edit
     - navigation.tabs.sticky
+    - navigation.indexes
+    - toc.follow
+    - toc.track
+    - navigation.top
+    - navigation.tracking
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -74,10 +79,11 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.snippets:
+      url_download: true
   - pymdownx.tilde
 
 plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
-  - social
