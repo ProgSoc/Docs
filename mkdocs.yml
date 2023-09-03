@@ -111,7 +111,7 @@ nav:
       - Full Stack Web Development: workshops/2023/full-stack-web-development.md
     - 2022:
       - React: workshops/2022/react.md
-
-
-
-  - Constitution: about/constitution.md
+  - About: 
+     - What We Do: about/what-we-do.md
+     - Constitution: about/constitution.md
+     
