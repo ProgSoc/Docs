@@ -102,6 +102,7 @@ nav:
   - Welcome: index.md
   - Projects: 
     - projects/index.md
+    - ProgBot: projects/progbot.md
   - Workshops: 
     - workshops/index.md
     - 2023:
