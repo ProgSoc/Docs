@@ -1,4 +1,4 @@
-site_name: ProgSoc RTFM
+site_name: ProgSoc Docs
 copyright: Copyright &copy; ProgSoc
 
 extra:
@@ -8,6 +8,8 @@ theme:
   name: material
   logo: assets/ProgSocWhite.png
   favicon: assets/BackgroundLogo.png
+  font:
+    code: Fira Code
   features:
     - content.code.copy
   palette:
