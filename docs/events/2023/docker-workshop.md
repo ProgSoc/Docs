@@ -73,7 +73,9 @@ CMD yarn start
 
 The above file has a few different parts that are important to understand but in order to understand why they are so popular in industry we need to understand how docker sees Dockerfiles. 
 
-To use an analogy, if you wanted to make a cake and share how you made it with everyone you would write down the recipe. The recipe would have a list of ingredients and a list of steps to make the cake. Dockerfiles are the same, they are a list of ingredients and steps to make your application.
+Each line in the file above creates a new "layer", which is like an addition on top of the previous image. Remember the old overhead projectors used in classrooms? Think of Docker layers like those transparent sheets. Each sheet has some information, and when stacked upon one another, they form a complete picture or presentation. You can add extra sheets on top to build up on your image, but if one sheet's colour overlaps with another, the bottom sheet is still there taking up space even if it's no longer visible.
+
+Each set of Docker layers is represented by a hash, so for example when you download 2 Docker images and they both share the same core layers (e.g. both are built on top of the `node:20-alpine` Docker image), then those core layers are only downloaded once.
 
 The steps are run one by one and each step creates a new layer in your docker image. This means that if you have a step that installs a dependency and then a step that removes it, the dependency will still be in your image. This is because the steps are run one by one and each step creates a new layer.
 
@@ -82,6 +84,14 @@ This makes it really great for caching. If the files that a step uses haven't ch
 ### `FROM`
 
 The `FROM` command is the first command in a docker file and it defines the base image that you are using. This is the image that you are building on top of and it is the first layer in your image.
+
+It often includes the version of the image that you are using. This is useful for things like node where you might want to use a specific version of node.
+
+Each image publishes images with different tags. A good example of this is the nodejs image. There are variations of not just the versions but also what it was built on top of. For example `node:20-alpine` is built on top of the alpine linux distribution and `node:20-slim` is built on top of the debian linux distribution.
+
+If you want to see which images are available you can go to the [Docker Hub](https://hub.docker.com/) and search for the image that you want to use.
+
+The page for nodejs is [here](https://hub.docker.com/_/node).
 
 ### `WORKDIR`
 
@@ -99,15 +109,13 @@ The `ENV` command sets environment variables in your docker image. This is how y
 
 The `RUN` command runs a command in your docker image. This is how you install dependencies and run other commands in your docker image. Docker containers are most often build on some variant of linux so you can often use common linux commands if you need to.
 
-### `EXPOSE`
+### `ENTRYPOINT`
 
-The `EXPOSE` command exposes a port in your docker image. This is how you can access your application from outside the docker image. This is useful for things like web servers that need to be accessed from outside the docker image.
-
-This line in the container tells docker that the container has a program that is listening on port 3000 and that it should expose that port to the outside world.
+The `ENTRYPOINT` command defines the command that is run when you run the docker image. This is how you define the command that runs your application.
 
 ### `CMD`
 
-The `CMD` command defines the command that is run when you run the docker image. This is how you define the command that runs your application.
+On the other hand `CMD` specifies the _default_ command to be run when the container is started. It can be overridden by passing a command to `docker run` (e.g. `docker run my-image echo "Hello World"`), but if no command is passed, then the command specified in `CMD` is run.
 
 ## Advanced `Dockerfile`s
 
@@ -128,6 +136,7 @@ FROM base as build
 RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
+# --production removes the devDependencies from the node_modules folder, making the size smaller
 RUN yarn install --production --frozen-lockfile
 
 # Stage 3 - Runner (runs the compiled code)
@@ -143,7 +152,55 @@ This code is the same as the earlier example but uses a multi-stage build to bun
 
 This means that only the specific files copied from the build stage are included in the final image. This means that the final image is much smaller than it would be if you included the build tools in the final image.
 
-## `docker-compose`
+## Building a docker image
+
+To build a docker image you need to run the `docker build` command. This command takes a few different arguments but the most important one is the `.` at the end. This tells docker to build the image from the current directory and look for a `Dockerfile` in the current directory.
+
+```bash
+docker build -t docker-ts-2023 .
+```
+
+This builds it and stores it on your machine.
+
+One of the noteworthy parts of this command is the `-t` option. This option allows you to tag the image with a name. This is useful for when you want to publish the image to a registry like the Docker Hub or Github Container Registry (ghcr.io).
+
+If you want to publish it to a registry like the Docker Hub or Github Container Registry (ghcr.io) you need to log in to the registry and then tag the image with the registry url.
+
+```bash
+docker login ghcr.io
+docker tag docker-ts-2023 ghcr.io/progsoc/docker-ts-2023
+docker push ghcr.io/progsoc/docker-ts-2023
+```
+
+This logs you in to the registry and then tags the image with the registry url. This is so that docker knows where to push the image to. Then it pushes the image to the registry.
+
+That way anyone can use it or download it. I've done this for the Docker Workshop repository. You can find the images on the [Github Container Registry](https://github.com/orgs/ProgSoc/packages?repo_name=DockerWorkshop2023).
+
+## Running a docker image
+
+### `docker run`
+
+If you don't want to use docker compose you can run a docker image using the `docker run` command. This command takes a few different arguments but the most important one is the `-p` argument. This tells docker to expose a port on the host machine.
+
+```bash
+docker run -p 3000:3000 docker-ts-2023
+```
+
+The `-p` option tells docker to expose port 3000 on the host machine and map it to port 3000 in the docker image. The first number is the port on the host machine and the second number is the port in the docker image.
+
+Similar to docker compose you can add other configuration options like environment variables and volumes.
+
+With environment variables you can use the `-e` argument to set environment variables in the docker image.
+```bash
+docker run -p 3000:3000 -e NODE_ENV=production docker-ts-2023
+```
+
+With volumes you can use the `-v` argument to mount a volume in the docker image.
+```bash
+docker run -p 3000:3000 -v postgres-data:/var/lib/postgresql/data docker-ts-2023
+```
+
+### `docker-compose`
 
 Docker compose is a tool that allows you to run multiple docker containers at the same time. This is useful for things like running a database and a web server that need to talk to one another at the same time.
 
@@ -161,7 +218,7 @@ You might be able to see that the image url is similar to the way that `git` url
 
 You can change it to a specific version if you want to use a specific version of the image e.g. postgres 14 or 15.
 
-## `docker-compose` with multiple services
+#### Docker Compose with Multiple Services
 
 ```yaml
 services:
@@ -178,62 +235,37 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: postgres
     volumes:
-      - postgres-data:/var/lib/postgresql/data
-
-volumes:
-    postgres-data:
+      - ./postgres_data:/var/lib/postgresql/data
 ```
 
 This is an example of a docker compose file that runs two docker images. The first is the image that we built earlier and the second is a postgres database. A lot of these common infrastructure services have docker images that you can use to run them.
 
 This makes it really easy to define a set of services and run them without any additional steps.
 
-One thing to note is that the `volumes` section at the bottom defines a volume that is used by the postgres image. This is a way of storing data that is outside of the docker image. This is useful for things like databases that need to store data outside of the docker image.
+One important thing to note is the `volumes:` section. This defines how data should be mapped between the host machine and the docker image. This is useful for things like databases where you want to store the data on the host machine so that it doesn't get deleted when you delete the docker image.
 
-Normally when you run a docker container the data doesn't stay after you restart or stop it, unless you use a volume. This is because the data is stored inside the docker image and when you restart or stop the container the data is lost.
+Normally, it is best practice to not store anything important in a Docker container. Containers are designed to be deleted, re-created, etc, on the go. Instead, any important data should be stored in volumes, so that all containers can be deleted and then resumed with zero data loss.
 
-## Building a docker image
+## Example Minecraft Server
 
-To build a docker image you need to run the `docker build` command. This command takes a few different arguments but the most important one is the `.` at the end. This tells docker to build the image from the current directory.
+As a bonus here's the config to quickly start up a Minecraft Server.
 
-```bash
-docker build -t docker-ts-2023 .
-```
+```yaml
+version: "3"
 
-This builds it and stores it on your machine.
-
-If you want to publish it to a registry like the Docker Hub or Github Container Registry (ghcr.io) you need to log in to the registry and then tag the image with the registry url.
-
-```bash
-docker login ghcr.io
-docker tag docker-ts-2023 ghcr.io/progsoc/docker-ts-2023
-docker push ghcr.io/progsoc/docker-ts-2023
-```
-
-This logs you in to the registry and then tags the image with the registry url. This is so that docker knows where to push the image to. Then it pushes the image to the registry.
-
-That way anyone can use it or download it. I've done this for the Docker Workshop repository. You can find the images on the [Github Container Registry](https://github.com/orgs/ProgSoc/packages?repo_name=DockerWorkshop2023).
-
-## Running a docker image
-
-If you don't want to use docker compose you can run a docker image using the `docker run` command. This command takes a few different arguments but the most important one is the `-p` argument. This tells docker to expose a port on the host machine.
-
-```bash
-docker run -p 3000:3000 docker-ts-2023
-```
-
-This is similar to the `ports` section in the docker compose file. It tells docker to expose port 3000 on the host machine and map it to port 3000 in the docker image. The first number is the port on the host machine and the second number is the port in the docker image.
-
-Similar to docker compose you can add other configuration options like environment variables and volumes.
-
-With environment variables you can use the `-e` argument to set environment variables in the docker image.
-```bash
-docker run -p 3000:3000 -e NODE_ENV=production docker-ts-2023
-```
-
-With volumes you can use the `-v` argument to mount a volume in the docker image.
-```bash
-docker run -p 3000:3000 -v postgres-data:/var/lib/postgresql/data docker-ts-2023
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      OPS: "arduano"
+    volumes:
+      - ./data:/data
 ```
 
 ## Conclusion
