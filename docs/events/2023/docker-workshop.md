@@ -71,7 +71,7 @@ EXPOSE 3000
 CMD yarn start
 ```
 
-The above file has a few different parts that are important to understand but in order to understand why they are so popular in industry we need to understand how docker sees Dockerfiles. 
+The above file has a few different parts that are important to understand but in order to understand why they are so popular in industry we need to understand how docker sees Dockerfiles.
 
 Each line in the file above creates a new "layer", which is like an addition on top of the previous image. Remember the old overhead projectors used in classrooms? Think of Docker layers like those transparent sheets. Each sheet has some information, and when stacked upon one another, they form a complete picture or presentation. You can add extra sheets on top to build up on your image, but if one sheet's colour overlaps with another, the bottom sheet is still there taking up space even if it's no longer visible.
 
@@ -148,7 +148,7 @@ COPY --from=build /app/node_modules ./node_modules
 CMD ["node", "dist/app.js"]
 ```
 
-This code is the same as the earlier example but uses a multi-stage build to bundle and transpile the code before running it. 
+This code is the same as the earlier example but uses a multi-stage build to bundle and transpile the code before running it.
 
 This means that only the specific files copied from the build stage are included in the final image. This means that the final image is much smaller than it would be if you included the build tools in the final image.
 
@@ -242,7 +242,7 @@ This is an example of a docker compose file that runs two docker images. The fir
 
 This makes it really easy to define a set of services and run them without any additional steps.
 
-One important thing to note is the `volumes:` section. This defines how data should be mapped between the host machine and the docker image. This is useful for things like databases where you want to store the data on the host machine so that it doesn't get deleted when you delete the docker image.
+One important thing to note is the `volumes:` section. This defines how data should be mapped between the host machine and the docker image. This is useful for things like databases where you want to store the data on the host machine so that it doesn't get deleted when you delete the docker image. Docker will mount a file/folder on your host PC to a file/folder in the Docker container. So in this case, it will create and mount a folder called `postgres_data` next to your docker-compose.yml to the folder `/var/lib/postgresql/data` inside the Docker container.
 
 Normally, it is best practice to not store anything important in a Docker container. Containers are designed to be deleted, re-created, etc, on the go. Instead, any important data should be stored in volumes, so that all containers can be deleted and then resumed with zero data loss.
 
@@ -267,6 +267,8 @@ services:
     volumes:
       - ./data:/data
 ```
+
+Save it in a file called docker-compose.yml (as explained previously), then run `docker compose up`, and it should start a Minecraft server on the latest version of minecraft that you can connect to.
 
 ## Conclusion
 
