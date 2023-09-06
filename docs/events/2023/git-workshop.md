@@ -7,6 +7,7 @@ tags:
     - Beginner 
     - Getting Started 
     - Workshop
+comments: true
 ---
 
 This post is based on the workshop that we held on the 22nd of March in-person, it covers everything we covered in the workshop.
