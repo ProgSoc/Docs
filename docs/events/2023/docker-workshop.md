@@ -21,17 +21,23 @@ Docker containers and virtual machines have a lot in common, they both allow you
 
 Instead of packaging an entire operating system like a virtual machine, docker containers only package the dependencies that your application needs to run. This means that you can run multiple docker containers on the same system without them interfering with each other.
 
-## Prerequisites
+## Installation Instructions
 
 ### Docker
 
 There are a number of ways to install Docker but the easiest way to install it is docker desktop. Docker desktop is a GUI application that help you manage your docker images and containers without having to use the command line.
 
+1. Go to the [Docker Desktop](https://www.docker.com/products/docker-desktop) website and download the installer for your operating system.
+
+2. Run the installer and follow the instructions.
+
+3. Once the installer has finished you should be able to run docker commands in your terminal.
+
 ### Dive (Optional)
 
-Dive is a piece of software that allows you to see the result of different steps in your docker image. It is a great tool to help you debug your docker images and see what is taking up the most space.
+Dive is a great piece of software that allows you to see the result of different steps in your docker image. It is an awesome tool to help you debug your docker images and see what is taking up the most space.
 
-
+Sadly as of the publish date of this workshop, Dive doesn't behave nicely with Docker Desktop.
 
 ## `Dockerfile`s
 
