@@ -26,3 +26,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Computer Systems Officer` Sarantis Konstantopedos
 - `Events Director` Jemima Khoo
 - `Marketing Director` Dylan Heaslip
+
+## Pre-2022 Executives
+
+[ProgSoc Archive](https://oldarchive.progsoc.org/wiki/List_of_Executive_members_by_year)
