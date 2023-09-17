@@ -18,7 +18,7 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `21/06` [UTS Tech Festival Programming Competition](./2023/programming-competition.md)
 - `02/08` **O'Day Semester 2**
 - `25/08` [Introduction to Docker](./2023/docker-workshop.md)
-- `08/09` Introduction to Rust
+- `08/09` [Introduction to Rust](./2023/rust.md)
 - `16/09` [Fuzzing: Automated Edge Case Searching @ CSECcon II](./2023/fuzz.md)
 
 ## 2022

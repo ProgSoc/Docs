@@ -107,6 +107,7 @@ nav:
       - Full Stack Web Development: events/2023/full-stack-web-development.md
       - UTS Tech Fest Programming Competition: events/2023/programming-competition.md
       - Docker Workshop: events/2023/docker-workshop.md
+      - Rust Workshop: events/2023/rust.md
       - Fuzzing Workshop: events/2023/fuzz.md
     - 2022:
       - Git Workshop: events/2022/git.md
