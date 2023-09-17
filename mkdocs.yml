@@ -14,7 +14,7 @@ extra:
       link: https://github.com/progsoc
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/progsocuts
-  
+
 theme:
   name: material
   custom_dir: overrides
@@ -95,25 +95,25 @@ plugins:
 
 nav:
   - Welcome: index.md
-  - Projects: 
+  - Projects:
     - projects/index.md
     - ProgBot: projects/progbot.md
     - Voting System: projects/voting-system.md
     - Docs: projects/docs.md
-  - Events: 
+  - Events:
     - events/index.md
     - 2023:
       - Git Workshop: events/2023/git-workshop.md
       - Full Stack Web Development: events/2023/full-stack-web-development.md
       - UTS Tech Fest Programming Competition: events/2023/programming-competition.md
       - Docker Workshop: events/2023/docker-workshop.md
+      - Fuzzing Workshop: events/2023/fuzz.md
     - 2022:
       - Git Workshop: events/2022/git.md
       - React: events/2022/react.md
       - Rust: events/2022/rust.md
       - AGM: events/2022/agm.md
-  - About: 
+  - About:
      - What We Do: about/what-we-do.md
      - Execs: about/execs.md
      - Constitution: about/constitution.md
-     
