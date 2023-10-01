@@ -113,6 +113,9 @@ nav:
       - React: events/2022/react.md
       - Rust: events/2022/rust.md
       - AGM: events/2022/agm.md
+  - Lore:
+     - lore/index.md
+     - Brick: lore/brick.md
   - About:
      - What We Do: about/what-we-do.md
      - Execs: about/execs.md
