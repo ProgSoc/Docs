@@ -116,6 +116,7 @@ nav:
   - Lore:
      - lore/index.md
      - Brick: lore/brick.md
+     - TFM: lore/tfm.md
   - About:
      - What We Do: about/what-we-do.md
      - Execs: about/execs.md
