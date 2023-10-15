@@ -18,6 +18,8 @@ extra:
       link: https://www.youtube.com/@utsprogsoc8402
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/ProgSoc
+    - icon: fontawesome/solid/globe
+      link: https://progsoc.org
 
 
 theme:
