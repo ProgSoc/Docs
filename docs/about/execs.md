@@ -11,8 +11,8 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 
 * `President` Sebastian Pietschner
 * `Vice President` Oli Lenehan
-* `Secretary` Mitchell Kijurina
 * `Treasurer` Jakob Tonnaer Lewis
+* `Secretary` Mitchell Kijurina
 * `Marketing` Vishwas Parpattegar
 * `Events`
  * Audrey Santoso
