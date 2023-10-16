@@ -15,9 +15,9 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 * `Secretary` Mitchell Kijurina
 * `Marketing` Vishwas Parpattegar
 * `Events`
- * Audrey Santoso
- * Leo Shchurov
- * Sarantis Konstantopedos
+    * Audrey Santoso
+    * Leo Shchurov
+    * Sarantis Konstantopedos
 
 ## 2023 Executives
 
