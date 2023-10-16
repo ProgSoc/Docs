@@ -7,6 +7,18 @@ description: ProgSoc is run by a team of dedicated students who volunteer their 
 
 ProgSoc is run by a team of dedicated students who volunteer their time to make ProgSoc the best it can be. If you have any questions about ProgSoc, feel free to contact any of the executives below.
 
+## 2024 Executives
+
+* `President` Sebastian Pietschner
+* `Vice President` Oli Lenehan
+* `Secretary` Mitchell Kijurina
+* `Treasurer` Jakob Tonnaer Lewis
+* `Marketing` Vishwas Parpattegar
+* `Events`
+ * Audrey Santoso
+ * Leo Shchurov
+ * Sarantis Konstantopedos
+
 ## 2023 Executives
 
 - `President` Leo Shchurov
