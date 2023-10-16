@@ -14,6 +14,13 @@ extra:
       link: https://github.com/progsoc
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/progsocuts
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@progsoc
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/ProgSoc
+    - icon: fontawesome/solid/globe
+      link: https://progsoc.org
+
 
 theme:
   name: material
