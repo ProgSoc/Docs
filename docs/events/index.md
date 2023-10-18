@@ -21,6 +21,7 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `08/09` Introduction to Rust
 - `16/09` [Fuzzing: Automated Edge Case Searching @ CSECcon II](./2023/fuzz.md)
 - `14/10` [AGM](./2023/agm.md)
+- `20/10` Programming Paradigms o' Plenty
 
 ## 2022
 
