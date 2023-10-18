@@ -125,6 +125,7 @@ nav:
      - lore/index.md
      - Brick: lore/brick.md
      - TFM: lore/tfm.md
+     - Golden Years: lore/golden-years.md
   - About:
      - What We Do: about/what-we-do.md
      - Execs: about/execs.md
