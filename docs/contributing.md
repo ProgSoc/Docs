@@ -9,7 +9,7 @@ hide:
 
 ## Making Code Changes
 
-There's a few steps to contributing to the ProgSoc docs and a few different ways you can go about it.
+There are different ways you can contribute to ProgSoc Docs:
 
 1. Create an issue on the [GitHub repo](https://github.com/progsoc/docs/issues) with your suggestion
 2. Fork the [GitHub repo](https://github.com/progsoc/docs/issues) and make a pull request with your changes
@@ -25,7 +25,7 @@ If you don't provide enough information we may ask you to make a pull request in
 
 The best way to contribute to almost any open source project is to fork the repo and make a pull request with your changes. This is the best way to ensure that your changes are accepted and that you're happy with the changes you're suggesting.
 
-If you're not familiar with how git works make sure to check out our [2022 Git Workshop](./events/2022/git.md). It has all the instructions you need to get started with git.
+If you're not familiar with how Git works make sure to check out our [2022 Git Workshop](./events/2022/git.md). It has all the instructions you need to get started with Git.
 
 1. [Fork the GitHub repo](https://github.com/ProgSoc/Docs/fork) to create your own copy of the repo on GitHub.
 2. Make your changes to the files you want to update.
@@ -36,7 +36,7 @@ If you're not familiar with how git works make sure to check out our [2022 Git W
 
 ### Editing on GitHub
 
-If you're not familiar with git, or you just want to make a quick change, you can edit the files directly on GitHub. This is the quickest way to make a change, but it's not the best way to ensure that your changes are accepted.
+If you're not familiar with Git, or you just want to make a quick change, you can edit the files directly on GitHub. This is the quickest way to make a change, but it's not the best way to ensure that your changes are accepted.
 
 1. Navigate to the file you want to edit on GitHub.
 2. Click the edit button in the top right corner of the file.
