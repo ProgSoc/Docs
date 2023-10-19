@@ -11,6 +11,16 @@ Contributed to by Christian Kent after a request for the forgotten lore on Disco
 
 If you have any improvements or additions to this page, please submit a pull request or contact the ProgSoc executive team via Discord.
 
+## Musings
+
+> Stories from the times after the last of the sensible founding generation departed (raz, caz, anton) but before the LiveJournal Generation took over.
+
+> It's probably fair to say that The Golden Years kept reminding everyone we were the largest non-barbecue club (i.e. had far less social focus, activities very online when no other clubs had a website let alone a chat room — unless we provided their website space) and yet, the biggest memories are that this is when things got the most social and the least technical.
+
+> That's not to underplay the hard work from all the technical volunteers keeping the servers up. "We are not an ISP" but websites and accounts were into the second decade of awesome membership benefit. It was a constant tension, as was "we are also not the Linux Server On As Many Types of Hardware as Possible Society", and yet …
+
+## Context
+
 > Copypasta of my own Discord posts because this is a lesson on writing drafts and/or acquiring information easily, and delegating the editing.  Those who provide content typically don't have the time to do editing, or at least to do both.
 
 > The following is concerns the "Golden Years", the 2000s.  This may or may not be concurrent with the era of Christian Kent being titled "Project Starter", but he will always admit that the club did stray from its core purpose during this time, before which and after which it could be proud of its programming-related events]
