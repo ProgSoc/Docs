@@ -9,7 +9,7 @@ Before the dark times that was the 2000s, the ProgSoc golden years. Here you can
 
 Contributed to by Christian Kent after a request for the forgotten lore on Discord.
 
-If you have any improvements or additions to this page, please submit a pull request or contact the ProgSoc executive team via Discord.
+If you have any improvements or additions to this page, please submit a pull request or contact the ProgSoc executive team via [email](mailto:progsoc@activateuts.com.au) or [Discord](https://progsoc.org/discord).
 
 ## Musings
 
