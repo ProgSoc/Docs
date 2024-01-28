@@ -7,6 +7,12 @@ description: ProgSoc runs events on topics that we are passionate about. These w
 
 One of the main things that ProgSoc does at UTS is run workshops on topics that we are passionate about. These workshops are normally run by members of ProgSoc, but we also have guest speakers from time to time.
 
+## 2024
+
+- `13-14/02` **O'Day Semester 1**
+- `24/02` Welcome Drinks
+- `28/02` Introduction to Programming: Python
+
 ## 2023
 
 - `15/02` **O'Day Semester 1**
