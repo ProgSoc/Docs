@@ -37,7 +37,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Secretary` Adi Pandey
 - `Computer Systems Officer` Sarantis Konstantopedos
 - `Events Director` Jemima Khoo
-- `Marketing Director` Dylan Heaslip
+- `Marketing Director` Dylan H (Duck Marketing)
 
 ## Pre-2022 Executives
 
