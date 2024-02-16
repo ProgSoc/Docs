@@ -1,0 +1,1 @@
+--8<-- "https://github.com/ProgSoc/GhostTheme/blob/main/README.md"
