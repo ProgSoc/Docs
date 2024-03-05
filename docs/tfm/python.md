@@ -13,12 +13,17 @@ tags:
 
 ### Windows
 
+* Follow the default prompts
+* Ensure
+
 ### Linux
 
 * Batteries Included
 
 ### MacOS
 
+* Batteries Included
+
 ## Editor Integration
 
-* Batteries Included
+* VSCode Python Extension

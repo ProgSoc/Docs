@@ -110,7 +110,7 @@ nav:
   - Events:
     - events/index.md
     - 2024:
-      - Python Workshop: events/2024/python.md
+      - Beginners' Python: events/2024/python.md
     - 2023:
       - Git Workshop: events/2023/git-workshop.md
       - Full Stack Web Development: events/2023/full-stack-web-development.md

@@ -2,7 +2,7 @@ from turtle import *
 
 mode('logo')
 speed(0)
-pensize(8)
+# pensize(1)
 
 penup()
 goto(80, 68)

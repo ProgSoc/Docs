@@ -12,8 +12,8 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `13-14/02` **O'Day Semester 1**
 - `24/02` Welcome Drinks
 - `28/02` [Beginners' Python](./2024/python.md)
-- `13/03` Beginners' Programming: Java
-- `20/03` Beginners' Programming: Git
+- `13/03` Beginners' Java
+- `20/03` Beginners' Git
 
 ## 2023
 
