@@ -9,50 +9,45 @@ tags:
 
 # Beginners' Python (2024)
 
-## 🏗️ Setting Up
+Hi! This is a follow-up to the Beginners' Python workshop we ran on 28/02/2024. It'll cover the same content, and provide some additional exercises to practise at home. We're still working on formalising this, so expect more detailed explanations in future - but for now this is a good reference.
 
-See the [installation section on the TFM Python page](../../tfm/python.md#installation).
+If you have any questions while reading this post, don't be afraid to ask on [our Discord server!](https://progsoc.org/discord)
+
+You can find complete example code on the [Workshop GitHub Repository](https://github.com/ProgSoc/Python2024).
+
+Before we dive into learning to program in Python, let's get to know a little bit of how Python came to be and how it might be useful for you.
 
 ## 🖼️ Background
 
-### Audience's Background
-
-* Have you ever done any programming/coding?
-* If so:
-    * What programming language(s) did you use?
-    * If one of them was Python:
-        * Awesome! Hopefully this is somewhat familiar to you, but enjoy the refresher nonetheless.
-    * Otherwise:
-        * Well, another one to add to your repertoire!
-* Otherwise:
-    * Enjoy learning how to program!
-    * Try typing in `print("Hello, World!")` into `python`
-
 ### History
 
-<https://en.wikipedia.org/wiki/History_of_Python>
-<http://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html>
+- Written initially by Guido van Rossum in 1989/1990, working at CWI (Government research centre for computer science and mathematics).
+- Made public on Usenet in February 1991.
+- Version 1.0 release in January 1994. This marked the start of wider "Open Source" development with more external contributors.
+- Version 2.0 release in October 2000, used as a tool in building and compiling C and C++ source code for many years - more capabable and compatible than shell scripts yet still simple.
+- Version 3.0 release in December 2008, breaking backwards compatibility with Python 2. Simplified and made the language more consistent, removing accumulated messyness.
 
-* Written initially by Guido van Rossum in 1989/1990, working at CWI (Government research centre for computer science and mathematics).
-* Made public on Usenet in February 1991.
-* Version 1.0 release in January 1994. This marked the start of wider "Open Source" development with more external contributors.
-* Version 2.0 release in October 2000, used as a tool in building and compiling C and C++ source code for many years - more capabable and compatible than shell scripts yet still simple.
-* Version 3.0 release in December 2008, breaking backwards compatibility with Python 2. Simplified and made the language more consistent, removing accumulated messyness.
+> Read more at:
+>
+> - <https://en.wikipedia.org/wiki/History_of_Python>
+> - <http://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html>
+
 
 ### Why Python?
 
 <http://python-history.blogspot.com/2009/01/introduction-and-overview.html>
 
-* Quick for prototyping small solutions
-    * Dynamic typing means you don't have to fuss over extra variable labelling like in C, Java, etc
-* Extensive standard library of code
-* Large collection of third-party modules
-* Simple to learn the basics, good for non-programmers
-* Used widely in Data Science, Dev-Ops scripting, Web Servers.
-    * Google's first web crawler was written in Python
-    * Reddit, DropBox, YouTube, Spotify are all largely written in Python
-    * A useful 'glue' language to join other systems together
-* Has many features inspired from other programming languages, learning Python is a great stepping stone to learning many others
+- Quick for prototyping small solutions,
+    - Dynamic typing means you don't have to fuss over extra variable labelling like in C, C++, Java.
+- Extensive standard library of code,
+- Large collection of third-party modules,
+- Simple to learn the basics, good for non-programmers,
+- Used widely in Data Science, Dev-Ops scripting, Web Servers,
+    - Google's first web crawler was written in Python,
+    - Reddit, DropBox, YouTube, Spotify are all largely written in Python,
+    - A useful 'glue' language to join other systems together,
+    - Lots of machine learning examples online use Python.
+- Has many features inspired from other programming languages, learning Python is a great stepping stone to learning many others.
 
 ## 🥋 Fundamentals
 
@@ -60,36 +55,70 @@ You can also refer to [The Python Tutorial](https://docs.python.org/3/tutorial/i
 
 ### Hello, World!
 
-1. Open up your CMD / Command Prompt (Windows), or Terminal (Unix),
-2. At the prompt, type `python` and hit `Enter`:
-    * You'll go into interactive mode, also known as the Read-Evaluate-Print-Loop (REPL),
-    * This is sort of like a calculator, you can type instructions in but they won't be saved - you'll have to type them all in again if you want to continue your work again later.
+1. Navigate to [this Interactive Python trinket.io page (REPL)](https://trinket.io/embed/python3/08d075a4d3?outputOnly=true&runOption=console&runMode=console),
+2. When presented with the prompt, `>>>`, type in `print("Hello, World!")` and hit `Enter`:
+    ```python
+    >>> print('Hello, World!')
+    Hello, World!
+    ```
+
+Congratulations, that's your first line of Python code in this workshop!
+
+Before we get going, let's understand what happened there:
+
+Those three symbols (`>>>`) appear when you use Python interactively like we did here. They just mean that Python is ready for you to start typing in your code.
+
+`print` is a special instruction in our code, called a 'function' (it works similarly to those in Maths), and it instructs the program to show something on your screen. Don't worry about what a function is yet, we'll talk about them later.
+
+> But how does `print` know what to show?
+
+It takes an *input* that you put inside those round brackets (parentheses) next to its name, it will then *output* that to your screen. The input can be text in quotes like what you typed in, or numbers too - actually, it can be any value known as an [expression](https://docs.python.org/3/reference/expressions.html) but we'll talk about those later.
+
+We'll also learn more about functions later on, but for now just know that `print(...)` can be used to show stuff on your screen.
+
+#### Python as a Calculator
+
+The way we used Python here isn't normally how you write programs, but it can be handy to use Python like a calculator for trying out small parts of your programs. Formally, it's called the Read-Evaluate-Print-Loop, or REPL for short:
+
+- *Read:* It lets you type in your program, then reads it into the computer's memory,
+- *Evaluate:* It runs your code, computing to a final value,
+- *Print:* That value from the last step is shown on your screen,
+- *Loop:* Repeat the same steps over again.
+
+We'll make use of the REPL later on to get you familiar with the different types of data available to you in Python, and the ways you can manipulate and interact with them.
+
+For now, have a go at some basic arithmetic (order of operations apply):
 
 ```python
-$ python
-
->>> print("Hello, World!")
-Hello, World!
+2 + 2
+5 - 3
+2.5 + 4
+2 * 3
+2 * 3 + 1
+(2 * 3) + 1
+2 * (3 + 1)
+14 / 2
+18 % 5
 ```
 
-Congratulations, that's your first line of Python code in this workshop! (And technically too, of Batch or Bash to launch Python. Sssneaky! 🐍)
+If you're a little lost, that's okay - we'll explain it from the ground up. If you have a mathematical background, hopefully you are starting to recognise some familiar notation between Python and Mathematics.
 
 ### Data Types
 
-Without data, your program may as well not exist at all. It's what your computer works with in order to actually produce (occasionally 😉) useful output.
+Without data, your program may as well not exist at all. It's what your computer works with in order to actually produce useful (occasionally 😉) output.
 
 #### 'Primitives'
 
-All progamming languages have a group of base level data-types, known as ['primitives'](https://en.wikipedia.org/wiki/Language_primitive), that you process in your code and use to assemble more complex data-structures.
+All progamming languages have a group of base level data-types, known as ['primitives'](https://en.wikipedia.org/wiki/Language_primitive), that you process in your code and use to assemble more complex data-structures. Don't worry too much about the technical details here, just know they're the building blocks of your programs.
 
-As we work through the examples below, have a go at typing them into the REPL as-is; but also on the inside of that `print(...)` thing we saw earlier. Anything you want to display goes inside the round-brackets.
+As we work through the examples below, have a go at typing them into the REPL as-is; but also on the inside of that `print(...)` thing we saw earlier. Remember, anything you want to display goes inside the round-brackets.
 
 ```python
-$ python
-
 >>> 0
 >>> print(0)
 ```
+
+If you want to jump ahead, [open up a Trinket REPL](https://trinket.io/embed/python3/08d075a4d3?outputOnly=true&runOption=console&runMode=console) and try the [example from the Workshop GitHub Repository](https://github.com/ProgSoc/Python2024/blob/main/act-00-1.py).
 
 ##### Whole Numbers (Integers)
 
@@ -110,6 +139,8 @@ Have a go at typing in the values below into the REPL, to see how they are inter
 0o664
 ```
 
+Just like in Mathematics, you can place a minus sign to make a number negative. Unique to programming languages however, is the `0x` hexadecimal, `0b` binary and `0o` octal notation. These are good to know, but not important for now - they use different number systems and are useful in a few different areas of computing.
+
 ##### Text (Strings)
 
 > *This heading says "Text"! But you just said computers work with numbers?*
@@ -120,7 +151,7 @@ That's right.
 
 Actually, it kind of is... Text in programming languages is actually just a bunch of numbers.
 
-> *Sure.. but the code further down clearly says `"A Pie"` and not `1, 3, 14159`! So what's going on? 🤔*
+> *Sure.. but the code further down clearly says `"A Pie"` and not `1, 3.14159`! So what's going on? 🤔*
 
 Each of those numbers are used to represent individual letters, or more formally 'characters'. For modern computers, those numbers are assigned to specific characters by the [Unicode Consortium](https://home.unicode.org/). In the past (and still for the first 128 characters) these numbers were assigned according to [ASCII](https://en.wikipedia.org/wiki/ASCII).
 
@@ -151,20 +182,20 @@ with normal quotes"
 
 Perhaps you noticed those odd `\` backslashes. They form [escape sequences](https://docs.python.org/3/reference/lexical_analysis.html#escape-sequences), and are used to insert special non-typable characters into text in your Python code.
 
-You'll mostly only ever need to know a couple: `\"` or `\'` when you want to use quotes inside a string, `\n` for starting more text on a new line, and `\\` for including a backslash by itself.
+You'll mostly only ever need to know just a few: `\"` or `\'` when you want to use quotes inside a string, `\n` for starting more text on a new line, and `\\` for including a backslash by itself.
 
 ##### Decimals (Floating-Point Numbers)
 
 Back to numbers, modern computers store decimal numbers in a special way to make computation efficient. It's called 'floating' point (reffering to the decimal-dot) because you can change how many decimal places of precision you represent a number with. Some old computers only did decimals to a fixed number of places (like 2.01, 2.10) because they were manually doing the base-10 arithmetic which was slow.
 
-They're simple enough to use in Python, just put a decimal-point in your number with at least one digit afterwards and you know have a floating-point number, or *float*.
+They're simple enough to use in Python: put a decimal-point in your number with at least one digit afterwards, just like Maths, and you know have a floating-point number, or *float*.
 
 ```python
 3.14159
 -9.8
 ```
 
-Because of the way floats are represented, you can have negative-zero and  infinity. There's also a special value called `nan`, short for 'Not-A-Number'.
+Because of the way floats are represented, you can have negative-zero and  infinity. There's also a special value called `nan`, short for 'Not-A-Number'. These are quirks that you will come across in your time programming, but aren't critical to know right now.
 
 ```python
 0.0
@@ -335,7 +366,7 @@ x = int(input("Enter a number: "))
 print("You entered:", x)
 ```
 
-#### Type-Casting / Conversion
+#### Type-Casting / Data Conversion
 
 ```python
 int()
@@ -414,117 +445,6 @@ def complex_add(a, b):
     return (a[0] + b[0], a[1] + b[1])
 ```
 
-### Modules
-
-```python
-import random
-from random import randint
-from random import *
-import numpy as np
-from numpy import sqrt as sq
-```
-
-#### Installing Modules from PyPI
-
-```sh
-$ pip install numpy
-```
-
-## 🔬 Advanced Python
-
-### External Interaction
-
-```python
-with open("file.txt") as f:
-    print(f.read())
-```
-
-### Complex Numbers
-
-### Classes
-
-```python
-class Vehicle:
-    def __init__(self, name):
-        self._name = name
-
-    def introduce(self):
-        print(f"This is a {self._name}.")
-
-class Car:
-    pass
-```
-
-### Exceptions (Error Handling)
-
-try opening a file, fail.
-repeat logic twice, show complelling use of functions
-
-```python
-try:
-    pass
-except Error as e:
-    pass
-finally:
-    pass
-```
-
-### Lambda Expressions
-
-### List Comprehension
-
-[i for i in range(10)]
-
-### Iterables
-
-```python
-map(fn, iter)
-filter(fn, iter)
-[*iter]
-{**iterkv}
-```
-
-### Structural Pattern Matching
-
-```python
-match <expression>:
-    case <pattern> [<if guard>]:
-        ...
-```
-
-### Generators / Coroutines
-
-### Esoterics
-
-* global/nonlocal scope keyword
-* for else loops
-* mutable default arguments
-
-## ⛩️ Into Practice
-
 ### ProcSoc Turtle
 
 ![The ProgSoc Logo drawn using the Turtle Python library](./python/turtle-logo.png)
-
-### Spirograph Turtle
-
-### Automation and Scripting
-
-```
-pip install svg-turtle beautifulsoup4 svglib "reportlab<4"
-```
-
-Bulk file creation and renaming
-
-<https://beautiful-soup-4.readthedocs.io/en/latest/>
-
-Scrape ProgSoc Blog, Use Length of words in blog titles to generate a unique spiro for each post
-
-### Web Server
-
-UTS Wayfinding scraper
-
-### More?
-
-* Django / Flask
-* Numpy / Matplotlib
