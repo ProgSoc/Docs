@@ -130,4 +130,7 @@ nav:
      - What We Do: about/what-we-do.md
      - Execs: about/execs.md
      - Constitution: about/constitution.md
+  - Org:
+     - org/index.md
+     - General Meetings & Standing Orders: org/general-meetings.md
   - Contributing: contributing.md
