@@ -14,26 +14,17 @@ Throughout this workshop, I'll be referring to these slides:
 
 Using this online development environment means you don't need to set up any software on your computer besides the browser you already have!
 
-:::info
-<https://stackblitz.com/github/ProgSoc/2024ReactWorkshop>
-
-:::
+https://stackblitz.com/github/ProgSoc/2024ReactWorkshop
 
 ## Discord
 
 For this workshop there's a discord channel where you can ask any questions.
 
-:::info
-<https://discord.com/channels/504971400394702858/1298453195374460928>
-
-:::
+https://discord.com/channels/504971400394702858/1298453195374460928
 
 ## React Docs
 
-:::info
-<https://react.dev/>
-
-:::
+https://react.dev/
 
 # What is React, and why is it important?
 
@@ -135,10 +126,8 @@ This mix of React components and HTML markup is called `JSX` or JavaScript React
 
 Another notable factor in this example is how to reuse a component. Despite this example referencing `Greeting` twice, they will render differently and have different values.
 
-:::tip
-All components must be uppercase.
 
-:::
+**All components must be uppercase.**
 
 ## Styling
 
@@ -164,10 +153,8 @@ function Greeting(props) {
 
 We can define our classes in a separate file and import them into our file using CSS modules. This allows us to reference the class names directly.
 
-:::info
-In JavaScript `class` is reserved so all `JSX` elements use `className` instead
 
-:::
+**In JavaScript `class` is reserved so all `JSX` elements use `className` instead**
 
 ### Using Tailwind CSS (Utility Classes)
 
@@ -301,7 +288,9 @@ Regarding web applications, there are various ways that data can be fetched and 
 
 Client-side rendering is the default for React as it doesn't require a backend server and just outputs a bunch of static files. One notable aspect is that the very first request you'll get when accessing a CSR React App is that all that's there is a very bare-bones `index.html` file with a `div` an element like this:
 
-![Screenshot of a Client-Side Rendered React Application's first request](attachments/4b75cdb0-decd-4786-929e-05b032840f20.png)In CSR, you specify the `id` of the root element. Then, using JavaScript, React will build the entire application inside that `div` element.
+![Screenshot of a Client-Side Rendered React Application's first request](attachments/4b75cdb0-decd-4786-929e-05b032840f20.png)
+
+In CSR, you specify the `id` of the root element. Then, using JavaScript, React will build the entire application inside that `div` element.
 
 The disadvantage of this is that the device has to do a lot of work building your application on the fly. This sometimes means that web crawlers won't see your application's content and just that empty `div`.
 
