@@ -13,10 +13,10 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Jess Swain
 - `Marketing` Moody Tellaoui
 - `Events`
-  - Vishwas Parpattegar
-  - Eddie Shafiq
-  - Ben Walters
-  - Ashwin Rajesh
+    - Vishwas Parpattegar
+    - Eddie Shafiq
+    - Ben Walters
+    - Ashwin Rajesh
 
 ## 2024 Executives (XXXVI)
 
