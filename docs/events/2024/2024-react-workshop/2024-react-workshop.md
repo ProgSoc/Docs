@@ -1,3 +1,12 @@
+---
+date: 2024-10-24
+title: React Workshop
+description: ProgSoc's 2024 React Workshop
+comments: true
+tags:
+  - Workshop
+---
+
 # 2024 React Workshop
 
 Welcome to the ProgSoc's 7th workshop this year!

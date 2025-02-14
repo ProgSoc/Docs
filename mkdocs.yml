@@ -109,6 +109,8 @@ nav:
     - Docs: projects/docs.md
   - Events:
     - events/index.md
+    - 2024:
+      - React Workshop: events/2024/2024-react-workshop/2024-react-workshop.md
     - 2023:
       - Git Workshop: events/2023/git-workshop.md
       - Full Stack Web Development: events/2023/full-stack-web-development.md
