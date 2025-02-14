@@ -1,11 +1,38 @@
+---
 title: ProgSoc Executives
 description: ProgSoc is run by a team of dedicated students who volunteer their time to make ProgSoc the best it can be.
+---
 
 # ProgSoc Executives
 
 ProgSoc is run by a team of dedicated students who volunteer their time to make ProgSoc the best it can be. If you have any questions about ProgSoc, feel free to contact any of the executives below.
 
-## 2025 Executives (XXXVII) - Current
+## Executive Roles
+
+The ProgSoc executive team is made up of a number of roles, each with its own responsibilities. The roles are elected annually at the ProgSoc Annual General Meeting (AGM) and are held for a term of one year. The roles are designed to ensure that the society is run effectively and efficiently, and that the needs of the members are met.
+
+### Current Roles
+
+The following is a list of the roles that are currently held by executives:
+* `President` - The President is the head of the society and is responsible for overseeing the society's operations.
+* `Vice President` - The Vice President assists the President in their duties and acts as the President in their absence.
+* `Secretary` - The Secretary is responsible for keeping records of the society's activities and meetings.
+* `Treasurer` - The Treasurer is responsible for managing the society's finances.
+* `Marketing` - The Marketing Officer is responsible for promoting the society and its events.
+* `Events` - The Events Officer is responsible for organising and running events for the society.
+
+### Past Roles
+
+As time passes and the society evolves, the roles of the executives have changed. The following is a list of the roles that have been held by executives in the past and no longer exist:
+* CSO (Computer Systems Officer, Est 1989) - Responsible for the maintenance and upkeep of the ProgSoc servers and other technical infrastructure.
+* PRO (Public Relations Officer, Est 1995) - Responsible for the promotion of ProgSoc and its events.
+* Alumni Representative (Est 2011) - Responsible for maintaining contact with ProgSoc alumni.
+* Competitions Officer (Est 2013) - Responsible for organising and running programming competitions.
+* First Year Representative (Est 2011) - Responsible for representing the interests of first-year members.
+
+## Executive List
+
+### 2025 Executives (XXXVII) - Current
 
 - `President` Sebastian Pietschner
 - `Vice President` Brendan Hin
@@ -18,7 +45,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
     - Ben Walters
     - Ashwin Rajesh
 
-## 2024 Executives (XXXVI)
+### 2024 Executives (XXXVI)
 
 - `President` Sebastian Pietschner
 - `Vice President` Oli Lenehan
@@ -30,7 +57,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
   - Leo Shchurov
   - Sarantis Konstantopedos
 
-## 2023 Executives (XXXV)
+### 2023 Executives (XXXV)
 
 - `President` Leo Shchurov
 - `Vice President` Sebastian Pietschner
@@ -40,7 +67,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Events Director` Rain Holloway
 - `Marketing Director` Deepak Mallampalli
 
-## 2022 Executives (XXXIV)
+### 2022 Executives (XXXIV)
 
 - `President` Leo Shchurov
 - `Vice President` Shaan Khan
@@ -50,7 +77,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Events Director` Jemima Khoo
 - `Marketing Director` Dylan H (Duck Marketing)
 
-## 2021 Executives (XXXIII)
+### 2021 Executives (XXXIII)
 
 - `President` Rach Coster
 - `Vice President` Leo Shchurov
@@ -60,7 +87,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Events Coordinator` Shaan Khan
 - `Marketing Director` Renier Lambinon
 
-## 2020 Executives (XXXII)
+### 2020 Executives (XXXII)
 
 - `President` Ben Kelly
 - `Vice President` Rach Coster
@@ -70,7 +97,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Events Coordinator` Albert Ferguson
 - `Marketing Director` Mohit Sewani
 
-## 2019 Executives (XXXI)
+### 2019 Executives (XXXI)
 
 - `President` Rosalie Prom (until 17th of May)
 - `President` Ben Kelly (from 17th of May)
@@ -84,7 +111,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 
 - `Co-Computer Systems Officer (PFY)` Sebastian Vaughan (until 17th of May)
 
-## 2018 Executives (XXX)
+### 2018 Executives (XXX)
 
 - `President` Brenton Smith
 - `Vice President` Jenny Nguyen
@@ -92,7 +119,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Sebastian Southern
 - `Computer Systems Officer` Chris Deigan
 
-## 2017 Executives (XXIX)
+### 2017 Executives (XXIX)
 
 - `President` Cody Love
 - `Vice President` Jayesh Malhotra
@@ -100,7 +127,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Brenton Smith
 - `Computer Systems Officer` Chris Deigan
 
-## 2016 Executives (XXVIII)
+### 2016 Executives (XXVIII)
 
 - `President` Jacob Dunk
 - `Vice President` Liam Edwards-Playne
@@ -108,7 +135,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Mai Nguyen
 - `Computer Systems Officer` Lewys Martin
 
-## 2015 (2) Executives (XXVII)
+### 2015 (2) Executives (XXVII)
 
 - `President` Carlin Rookes
 - `Vice President` Sarah Lawrence
@@ -116,7 +143,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Robin Dalipe
 - `Computer Systems Officer` Robin Wohlers-Reichel
 
-## 2015 (1) Executives (XXVI)
+### 2015 (1) Executives (XXVI)
 
 - `President` Carlin Rookes
 - `Vice President` Jacob Dunk
@@ -127,7 +154,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Alumni Representative` Livia Lam
 - `First Year Representative` Cody Love
 
-## 2014 Executives (XXV)
+### 2014 Executives (XXV)
 
 - `President` Livia Lam
 - `Vice President` Jenny Nguyen
@@ -139,7 +166,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Alumni Representative` Leefe Hicks
 - `First Year Representative` Ben Brown
 
-## 2013 Executives (XXIV)
+### 2013 Executives (XXIV)
 
 - `President` Tom Bozic
 - `Vice President` Kristina Coffey
@@ -149,7 +176,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Alumni Representative` Daniel Comarmond
 - `First Year Representative` Rhys Christian
 
-## 2012 Executives (XXIII)
+### 2012 Executives (XXIII)
 
 - `President` Tom Bozic
 - `Vice President` Tina Ng
@@ -159,7 +186,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Alumni Representative` Daniel Comarmond
 - `First Year Representative` Kerry-Ann Chapman
 
-## 2011 Executives (XXII)
+### 2011 Executives (XXII)
 
 - `President` Margaret Colville
 - `Vice President` Tom Bozic
@@ -169,7 +196,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Alumni Representative` Thomas Given-Wilson
 - `First Year Representative` Livia Lam
 
-## 2010 Executives (XXI)
+### 2010 Executives (XXI)
 
 - `President` John Elliot
 - `Vice President` Margaret Colville
@@ -184,7 +211,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Keyholder` James Kirsop
 - `Keyholder` Robert Howard
 
-## 2009 Executives (XX)
+### 2009 Executives (XX)
 
 - `President` Thomas Given-Wilson
 - `Vice President` Margaret Colville
@@ -199,7 +226,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `PFY` James Kirsop
 - `Keyholder` Robert Howard
 
-## 2008 Executives (XIX)
+### 2008 Executives (XIX)
 
 - `President` Thomas Given-Wilson
 - `Vice President` Brian Lim
@@ -216,7 +243,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Keyholder` James Kirsop (until 10th of May)
 - `Keyholder` Robert Howard (from 10th of May)
 
-## 2007 Executives (XVIII)
+### 2007 Executives (XVIII)
 
 - `President` Nathan de Vries
 - `Vice President` Chris Laughton
@@ -233,7 +260,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `PFY` Kris Splittgerber
 - `Room Manager` Adam Stiskala
 
-## 2006 Executives (XVII)
+### 2006 Executives (XVII)
 
 - `President` David Edney
 - `Vice President` Michael Dale
@@ -243,7 +270,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Alumni Representative` Christian Kent
 - `First Year Representative` Bryn Loftus
 
-## 2005 Executives (XVI)
+### 2005 Executives (XVI)
 
 - `President` Elden McDonald
 - `Vice President` Myles Byrne
@@ -251,7 +278,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Christian Kent
 - `Computer Systems Officer` David Edney
 
-## 2004 Executives (XV)
+### 2004 Executives (XV)
 
 - `President` Matthew Beauregard
 - `Vice President` Elden McDonald
@@ -259,7 +286,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Christian Kent
 - `Computer Systems Officer` Nicholas FitzRoy-Dale
 
-## 2003 Executives (XIV)
+### 2003 Executives (XIV)
 
 - `President` Christian Kent
 - `Vice President` Gabriela Marcionetti
@@ -267,7 +294,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Elden McDonald
 - `Computer Systems Officer` Anand Kumria
 
-## 2002 Executives (XIII)
+### 2002 Executives (XIII)
 
 - `President` Gabriela Marcionetti
 - `Vice President` Christian Kent
@@ -275,7 +302,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Mendel Monteiro
 - `Computer Systems Officer` Murray Grant
 
-## 2001 Executives (XII)
+### 2001 Executives (XII)
 
 - `President` Christian Kent
 - `Vice President` Mark Langsworth
@@ -283,7 +310,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Telford Tendys
 - `Computer Systems Officer` Wim Pranata
 
-## 2000 Executives (XI)
+### 2000 Executives (XI)
 
 - `President` Anton Blanchard
 - `Vice President` Telford Tendys
@@ -291,7 +318,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Chris Mewett
 - `Computer Systems Officer` Steve Evans
 
-## 1999 Executives (X)
+### 1999 Executives (X)
 
 - `President` Anton Blanchard
 - `Vice President` Carolyn Choy
@@ -300,7 +327,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Chris Mewett (from 31st of July)
 - `Computer Systems Officer` Shaun Clowes
 
-## 1998 Executives (IX)
+### 1998 Executives (IX)
 
 - `President` Roland Turner
 - `Vice President` Paul McLachlan
@@ -308,7 +335,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Treasurer` Cameron Dorrington
 - `Computer Systems Officer` Anand Kumria
 
-## 1997 Executives (VIII)
+### 1997 Executives (VIII)
 
 - `President` Dennis Clark
 - `Vice President` Roland Turner
@@ -318,7 +345,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Society Computer Administrator` Anton Blanchard (until 8th of August)
 - `Computer Systems Officer` Anton Blanchard (from 8th of August)
 
-## 1996 Executives (VII)
+### 1996 Executives (VII)
 
 - `President` Dennis Clark
 - `Vice President` Paul McLachlan
@@ -327,7 +354,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Public-Relations Officer` Sammy Youssef
 - `Society Computer Administrator` Phil Shead
 
-## 1995 Executives (VI)
+### 1995 Executives (VI)
 
 - `President` Chris Fraser
 - `Vice President` Stephen Boyd Gowing
@@ -341,7 +368,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 
 - `Publications Officer` Grant Heinrich
 
-## 1994 Executives (V)
+### 1994 Executives (V)
 
 - `President` Stephen Boyd Gowing
 - `Vice President` ?
@@ -350,7 +377,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Public-Relations Officer` ?
 - `Society Computer Administrator` ?
 
-## 1993 Executives (IV)
+### 1993 Executives (IV)
 
 - `President` ?
 - `Vice President` ?
@@ -359,7 +386,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Public-Relations Officer` ?
 - `Society Computer Administrator` ?
 
-## 1992 Executives (III)
+### 1992 Executives (III)
 
 - `President` ?
 - `Vice President` ?
@@ -368,7 +395,7 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Public-Relations Officer` ?
 - `Society Computer Administrator` ?
 
-## 1991 Executives  (II)
+### 1991 Executives  (II)
 
 - `President` ?
 - `Vice President` ?
@@ -377,14 +404,14 @@ ProgSoc is run by a team of dedicated students who volunteer their time to make 
 - `Public-Relations Officer` ?
 - `Society Computer Administrator` ?
 
-## 1989-1990 Executives (I)
+### 1989-1990 Executives (I) - Inaugural
 
 - `President` Chris Keane
 - `Vice President` Roland Turner
 - `Secretary` Vicky Tzotzos
 - `Treasurer` Peter Bestel
 - `Public-Relations Officer` Colin Panisset
-- `Society Computer Administrator` None appointed
+- `Society Computer Administrator` None appointed (no computers)
 
 **Non-executive:**
 
