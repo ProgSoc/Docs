@@ -7,6 +7,19 @@ description: ProgSoc is run by a team of dedicated students who volunteer their 
 
 ProgSoc is run by a team of dedicated students who volunteer their time to make ProgSoc the best it can be. If you have any questions about ProgSoc, feel free to contact any of the executives below.
 
+## 2025 Executives
+
+* `President` Sebastian Pietschner
+* `Vice President` Brendan Hin
+* `Secretary` Audrey Santoso
+* `Treasurer` Jess Swain
+* `Marketing` Moody Tellaoui
+* `Events`
+    * Vishwas Parpattegar
+    * Eddie Shafiq
+    * Ben Walters
+    * Ashwin Rajesh
+
 ## 2024 Executives
 
 * `President` Sebastian Pietschner
