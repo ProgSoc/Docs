@@ -14,6 +14,7 @@ The ProgSoc executive team is made up of a number of roles, each with its own re
 ### Current Roles
 
 The following is a list of the roles that are currently held by executives:
+
 * `President` - The President is the head of the society and is responsible for overseeing the society's operations.
 * `Vice President` - The Vice President assists the President in their duties and acts as the President in their absence.
 * `Secretary` - The Secretary is responsible for keeping records of the society's activities and meetings.
@@ -24,6 +25,7 @@ The following is a list of the roles that are currently held by executives:
 ### Past Roles
 
 As time passes and the society evolves, the roles of the executives have changed. The following is a list of the roles that have been held by executives in the past and no longer exist:
+
 * CSO (Computer Systems Officer, Est 1989) - Responsible for the maintenance and upkeep of the ProgSoc servers and other technical infrastructure.
 * PRO (Public Relations Officer, Est 1995) - Responsible for the promotion of ProgSoc and its events.
 * Alumni Representative (Est 2011) - Responsible for maintaining contact with ProgSoc alumni.
