@@ -33,4 +33,6 @@ Thanks to Christian Kent for the following stories. These cover the period from 
 
 In 2019 ProgSoc celebrated its 30th anniversary. To celebrate, many previous and current members of the club got together to share stories and reminisce about the good old days. For the 30th anniversary one of the founding members, Roland Turner (VP 1989/1990) spent some time between conference talks to record a message reflecting on the early days of ProgSoc.
 
+[Transcript](./30th-anniversary.md)
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QLxRQWSzQ0I?si=FoxhZvUU2HNfkrad" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
