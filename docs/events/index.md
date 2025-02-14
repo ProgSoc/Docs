@@ -7,6 +7,11 @@ description: ProgSoc runs events on topics that we are passionate about. These w
 
 One of the main things that ProgSoc does at UTS is run workshops on topics that we are passionate about. These workshops are normally run by members of ProgSoc, but we also have guest speakers from time to time.
 
+## 2025
+
+- `11-12/02` **O'Day Semester 1**
+- `27/02` ProgSoc x CSEC Welcome Drinks
+
 ## 2024
 
 - `13-14/02` **O'Day Semester 1**
@@ -14,6 +19,19 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `28/02` Introduction to Programming: Python
 - `13/03` Introduction to Programming: Java
 - `20/03` Introduction to Programming: Git
+- `24/04` Beginners' SQL
+- `26/04` Programmers' Hangout (1)
+- `17/05` Programmers' Hangout (2)
+- `24/06` UTS Tech Festival Programming Competition
+- `31/07` **O'Day Semester 2**
+- `22/08` CSEC x ProgSoc Welcome Drinks
+- `31/08` UTS Open Day Society Stall
+- `27/09` Programmers' Hangout (3)
+- `10/10` JavaScript Workshop
+- `12/10` ProgSoc AGM
+- `18/10` Rust Workshop
+- `24/10` [React Workshop](./2024/2024-react-workshop/2024-react-workshop.md)
+- `1/11` Docker Workshop
 
 ## 2023
 
