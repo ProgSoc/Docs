@@ -40,7 +40,7 @@ As time passes and the society evolves, the roles of the executives have changed
 - `Vice President` Brendan Hin
 - `Secretary` Audrey Santoso
 - `Treasurer` Jess Swain
-- `Marketing` Moody Tellaoui
+- `Marketing` Moody T
 - `Events`
     - Vishwas Parpattegar
     - Eddie Shafiq
