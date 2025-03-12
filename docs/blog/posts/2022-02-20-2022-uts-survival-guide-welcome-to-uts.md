@@ -1,12 +1,14 @@
 ---
 title: 2022 UTS Survival Guide. Welcome to UTS!
-postSlug: welcome-to-uts-2022
+slug: welcome-to-uts-2022
 date: 2022-02-20T22:12:00.000Z
+tags: UTS Info,UTS ProgSoc
 ogImage: ./assets/images/2022/02/UTS_engineering_IT_building-1-.jpg
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - UTS Info
+  - UTS ProgSoc
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

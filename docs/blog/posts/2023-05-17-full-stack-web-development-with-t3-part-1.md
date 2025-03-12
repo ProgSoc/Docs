@@ -1,12 +1,16 @@
 ---
 title: Full Stack Web Development with T3 - Part 1
-postSlug: full-stack-web-development-with-t3-1
+slug: full-stack-web-development-with-t3-1
 date: 2023-05-17T23:20:54.000Z
+tags: Programming,Web,Workshop,Advanced
 ogImage: ./assets/images/2023/05/Copy_of_ProgSoc_Git_Workshop_1.jpg
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Programming
+  - Web
+  - Workshop
+  - Advanced
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

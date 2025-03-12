@@ -1,11 +1,12 @@
 ---
 title: Contact Us
-postSlug: contact
+slug: contact
 date: 2021-11-19T07:03:45.000Z
+tags: 
 featured: false
 draft: false
 tags:
-  - relevant-tag
+
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

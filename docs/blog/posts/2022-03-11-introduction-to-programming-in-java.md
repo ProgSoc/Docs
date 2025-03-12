@@ -1,12 +1,14 @@
 ---
 title: Introduction to Programming in Java
-postSlug: introduction-to-programming-in-java-recap
+slug: introduction-to-programming-in-java-recap
 date: 2022-03-11T22:44:45.000Z
+tags: Workshop,Beginner
 ogImage: ./assets/images/2022/03/Introduction_to_Programming_Event_Facebook_Event_Cover-1-.png
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Workshop
+  - Beginner
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

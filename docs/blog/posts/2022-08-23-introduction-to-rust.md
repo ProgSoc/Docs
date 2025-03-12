@@ -1,12 +1,15 @@
 ---
 title: Introduction to Rust
-postSlug: introduction-to-rust
+slug: introduction-to-rust
 date: 2022-08-23T12:17:03.000Z
+tags: Programming,Advanced,Rust
 ogImage: ./assets/images/2022/08/chrome_Omgt9RuzpB.png
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Programming
+  - Advanced
+  - Rust
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

@@ -1,11 +1,12 @@
 ---
 title: ProgSoc Docs
-postSlug: progsoc-docs
+slug: progsoc-docs
 date: 2023-09-08T01:19:44.000Z
+tags: 
 featured: false
 draft: false
 tags:
-  - relevant-tag
+
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

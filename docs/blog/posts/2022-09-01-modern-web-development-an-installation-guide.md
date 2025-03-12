@@ -1,12 +1,15 @@
 ---
 title: "Modern Web Development: an installation guide"
-postSlug: modern-web-development-installation-guide
+slug: modern-web-development-installation-guide
 date: 2022-09-01T05:05:29.000Z
+tags: Getting Started,Beginner,Web
 ogImage: ./assets/images/2022/09/OKSVVNw-1-.png
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Getting Started
+  - Beginner
+  - Web
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

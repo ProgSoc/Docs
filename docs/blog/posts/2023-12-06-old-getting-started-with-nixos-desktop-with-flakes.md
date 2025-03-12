@@ -1,11 +1,13 @@
 ---
 title: (OLD) Getting started with NixOS Desktop with Flakes
-postSlug: getting-started-with-nixos
+slug: getting-started-with-nixos
 date: 2023-12-06T11:16:20.000Z
+tags: Nix,Advanced
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Nix
+  - Advanced
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

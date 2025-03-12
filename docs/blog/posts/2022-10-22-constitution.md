@@ -1,11 +1,12 @@
 ---
 title: Constitution
-postSlug: constitution-page
+slug: constitution-page
 date: 2022-10-22T07:00:00.000Z
+tags: 
 featured: false
 draft: false
 tags:
-  - relevant-tag
+
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

@@ -1,11 +1,12 @@
 ---
 title: "Guide: ProgSoc Voting System [beta]"
-postSlug: guide-progsoc-voting-system-beta
+slug: guide-progsoc-voting-system-beta
 date: 2022-10-13T05:48:07.000Z
+tags: Project
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Project
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

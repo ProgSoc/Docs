@@ -1,11 +1,12 @@
 ---
 title: Meeting Minutes
-postSlug: meeting-minutes
+slug: meeting-minutes
 date: 2021-11-22T06:38:50.000Z
+tags: 
 featured: false
 draft: false
 tags:
-  - relevant-tag
+
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

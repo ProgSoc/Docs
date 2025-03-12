@@ -1,11 +1,14 @@
 ---
 title: Getting Started with IntelliJ IDEA - A more complete solution
-postSlug: getting-started-with-intellij
+slug: getting-started-with-intellij
 date: 2022-10-07T13:13:51.000Z
+tags: Beginner,Getting Started,Programming
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Beginner
+  - Getting Started
+  - Programming
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

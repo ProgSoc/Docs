@@ -1,12 +1,15 @@
 ---
 title: Introduction to Git
-postSlug: intro-to-git
+slug: intro-to-git
 date: 2022-04-25T08:12:52.000Z
+tags: Getting Started,Workshop,Programming
 ogImage: ./assets/images/2022/04/GIT_Event_Facebook_Event_Cover.png
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Getting Started
+  - Workshop
+  - Programming
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

@@ -1,12 +1,13 @@
 ---
 title: Regex, the ultimate tool for string validation, parsing and matching!
-postSlug: regex-the-ultimate-string-parser-and-matcher
+slug: regex-the-ultimate-string-parser-and-matcher
 date: 2023-06-26T09:05:14.000Z
+tags: Beginner
 ogImage: ./assets/images/2023/06/coderpad-regex-the-complete-guide.jpg
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Beginner
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

@@ -1,12 +1,14 @@
 ---
 title: A comprehensive introduction to React hooks
-postSlug: a-comprehensive-guide-to-react-hooks
+slug: a-comprehensive-guide-to-react-hooks
 date: 2023-07-21T07:30:31.000Z
+tags: Beginner,Web
 ogImage: https://images.unsplash.com/photo-1627232826792-c5e753b1e985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDY2fHxob29rfGVufDB8fHx8MTY4OTkyNDU1Nnww&ixlib=rb-4.0.3&q=80&w=2000
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Beginner
+  - Web
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

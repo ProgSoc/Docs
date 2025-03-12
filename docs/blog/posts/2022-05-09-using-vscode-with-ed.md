@@ -1,11 +1,13 @@
 ---
 title: Using VSCode with Ed
-postSlug: using-vscode-with-edstem
+slug: using-vscode-with-edstem
 date: 2022-05-09T11:09:07.000Z
+tags: Beginner,UTS Info
 featured: false
 draft: false
 tags:
-  - relevant-tag
+  - Beginner
+  - UTS Info
 description:
   Placeholder description for imported post from Ghost Blog 
 ---
