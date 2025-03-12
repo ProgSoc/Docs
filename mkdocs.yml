@@ -71,8 +71,8 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
@@ -99,9 +99,12 @@ plugins:
   - search
   - git-revision-date-localized
   - tags
+  - blog
 
 nav:
   - Welcome: index.md
+  - Blog:
+    - blog/index.md
   - Projects:
     - projects/index.md
     - ProgBot: projects/progbot.md
