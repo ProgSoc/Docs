@@ -102,6 +102,10 @@ plugins:
   - blog
   - social:
       enabled: !ENV [CI, false]
+  - redirects:
+      redirect_maps:
+        'activate.md': 'https://www.activateuts.com.au/clubs/programmers-society-progsoc/?quickRegistration=true'
+        'discord.md': 'https://discord.gg/uSgqcBsrjd'
 
 nav:
   - Home: index.md
