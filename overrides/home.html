@@ -12,17 +12,17 @@
     background-color: transparent;
   }
 
-  .md-main__inner {
+  /* .md-main__inner {
     margin: 0
-  }
+  } */
 
-  md-main {
+  /* md-main {
     display: none;
-  }
+  } */
 
-  .md-content {
+  /* .md-content {
     display: none
-  }
+  } */
 
   @media screen and (min-width:60em) {
     .md-sidebar--secondary {
@@ -47,24 +47,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
-    display: absolute;
-  }
-
-
-  .cta-button {
-    background: white !important;
-    color: black !important;
-  }
-
-  @media only screen and (min-width: 900px) {
-
-    .cta-button {
-      background-color: rgba(255, 255, 255, 0.2) !important;
-      color: white !important;
-    }
-
-
+    min-height: 43vw;
+    /* display: absolute; */
   }
 
   .hp-header * {
@@ -91,5 +75,9 @@
   </div> -->
 </div>
 {% endblock %}
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+{% block content %}
+  {{ super() }}
+{% endblock %}
+{% block footer %}
+  {{ super() }}
+{% endblock %}
