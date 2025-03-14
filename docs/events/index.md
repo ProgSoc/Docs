@@ -10,7 +10,9 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 ## 2025
 
 - `11-12/02` **O'Day Semester 1**
-- `27/02` ProgSoc x CSEC Welcome Drinks
+- `26/02` ProgSoc x CSEC Welcome Drinks
+- `07/03` Python Workshop
+- `14/03` Java Workshop 
 
 ## 2024
 
