@@ -6,6 +6,8 @@ tags: Programming,Advanced,Rust
 ogImage: ./assets/images/2022/08/chrome_Omgt9RuzpB.png
 featured: false
 draft: false
+authors:
+    - arduano
 tags:
   - Programming
   - Advanced
@@ -18,6 +20,8 @@ description:
 Hi! This blog post is a follow-up to the Rust Workshop that ran on the 16th of August 2022.
 
 This post should cover the same concepts, while also providing links to relevant resources and further reading, where necessary. I will be explaining the concepts in terms of C/C++ and Java, so a general understanding of both is recommended.
+
+<!-- more -->
 
 What makes Rust different?
 --------------------------

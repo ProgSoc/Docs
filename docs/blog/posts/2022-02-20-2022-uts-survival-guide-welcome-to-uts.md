@@ -2,10 +2,11 @@
 title: 2022 UTS Survival Guide. Welcome to UTS!
 slug: welcome-to-uts-2022
 date: 2022-02-20T22:12:00.000Z
-tags: UTS Info,UTS ProgSoc
 ogImage: ./assets/images/2022/02/UTS_engineering_IT_building-1-.jpg
 featured: false
 draft: false
+authors:
+  - arduano
 tags:
   - UTS Info
   - UTS ProgSoc
@@ -17,6 +18,8 @@ description:
 Entering university for the first time often feels very intimidating to new students, as a third-year I still remember how intimidating my first lessons felt and how difficult it seemed to find new people.
 
 Now with several years behind my back and as an exec of multiple societies, I think I have some helpful tips to share that I wish I knew when entering UTS for the first time.
+
+<!-- more -->
 
 Meeting new people
 ==================

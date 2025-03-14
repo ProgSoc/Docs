@@ -6,6 +6,8 @@ tags: Programming,Advanced,Abstraction,C#
 ogImage: ./assets/images/2021/10/20a66125-49bd-42ac-9761-f04d2cc31a43-1-.png
 featured: false
 draft: false
+authors:
+  - arduano
 tags:
   - Programming
   - Advanced
@@ -21,6 +23,8 @@ Earlier this year, I had an interesting conversation with another ProgSoc member
 This post mainly applies to compiled languages such as C#, C++, Rust, and possibly Java, however Java appears to use dynamic dispatch significantly more than necessary.
 
 I will be using C# for demonstration, and I'll try to keep it simple and relevant to other languages also.
+
+<!-- more -->
 
 Compile time vs Runtime
 -----------------------

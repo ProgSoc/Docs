@@ -6,6 +6,8 @@ tags: Getting Started,Workshop,Programming
 ogImage: ./assets/images/2022/04/GIT_Event_Facebook_Event_Cover.png
 featured: false
 draft: false
+authors:
+  - sebasptsch
 tags:
   - Getting Started
   - Workshop
@@ -22,6 +24,8 @@ Git is a piece of software designed to accomodate the massive amount of changes 
 If you've ever done group work you'll have had this problem at _some_ point where two people try to edit the same paragraph and it just ends up as a jumbled mess of randomly placed characters.
 
 Git records everyone's changes line by line, making it easy to see what's been changed, when it's been changed and by whom whilst at the same time making sure your files don't end up like this.
+
+<!-- more -->
 
 ![](https://lh5.googleusercontent.com/GHUoQdOq58cTeKQZVciqhVOWfmEGgoK-LWnWxG4g3e3639WM4GwNxbvEONnl1wfXGBnKwHLJq3UZxeMvu6q8rhM1QeAQM9tzZbASKrkwrEQMIUCrGY0n2_98hbQ-4cPUU8llGslK)
 

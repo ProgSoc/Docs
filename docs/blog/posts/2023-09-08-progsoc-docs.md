@@ -4,15 +4,15 @@ slug: progsoc-docs
 date: 2023-09-08T01:19:44.000Z
 tags: 
 featured: false
-draft: false
-tags:
-
+draft: true
 description:
   Placeholder description for imported post from Ghost Blog 
 ---
 As you might have seen, our society has a rich history, mostly preserved on [https://oldarchive.progsoc.org](https://oldarchive.progsoc.org). Due to the loss of the dedicated ProgSoc space a little less than a decade ago, we no longer host them on our own servers.
 
 Instead, everything ran on Digital Ocean VPS'. This became quite expensive as time went on and the massive ~200-300 GB of data was hard to store. As a result, Leo created a tool that scraped all the pages of the wiki and served whatever it found. This is how we keep costs down and still have the old versions of the wiki.
+
+<!-- more -->
 
 But, as a society that revolves around programming we need to have our documentation _somewhere,_ over the past year or two it's been on this blog. But as we've discovered blogs aren't ideal for documentation.
 

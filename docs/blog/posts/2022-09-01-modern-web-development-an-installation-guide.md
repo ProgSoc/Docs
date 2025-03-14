@@ -6,6 +6,8 @@ tags: Getting Started,Beginner,Web
 ogImage: ./assets/images/2022/09/OKSVVNw-1-.png
 featured: false
 draft: false
+authors:
+  - arduano
 tags:
   - Getting Started
   - Beginner
@@ -27,6 +29,8 @@ This guide covers how to install:
 *   Node.js (using NVM)
 *   Docker Desktop (for building your apps, as well as running database servers locally with ease)
 *   Setting up SSH keys for Github
+
+<!-- more -->
 
 Visual Studio Code
 ------------------

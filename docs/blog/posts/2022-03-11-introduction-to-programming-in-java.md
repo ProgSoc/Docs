@@ -2,10 +2,11 @@
 title: Introduction to Programming in Java
 slug: introduction-to-programming-in-java-recap
 date: 2022-03-11T22:44:45.000Z
-tags: Workshop,Beginner
 ogImage: ./assets/images/2022/03/Introduction_to_Programming_Event_Facebook_Event_Cover-1-.png
 featured: false
 draft: false
+authors:
+  - arduano
 tags:
   - Workshop
   - Beginner
@@ -17,6 +18,8 @@ description:
 Hi! This blog post is a follow-up to the Introduction to Programming (in Java) workshop that we ran on 10/03/2022. It should cover the same content, in a similar way, including the exercises we provided. Also, here's a link to our original [slides](https://docs.google.com/presentation/d/142nNSNc97L5DdMpZuN5gOXxX6kMIc8a2jHqr-qb-vPo/edit?usp=sharing) for the workshop.
 
 Oh, and if you have any questions while reading this post, don't be afraid to ask on our Discord server!
+
+<!-- more -->
 
 But before we start learning about how to program in Java, we first need to know what Java is.
 

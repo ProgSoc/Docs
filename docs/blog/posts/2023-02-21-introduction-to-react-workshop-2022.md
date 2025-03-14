@@ -5,9 +5,9 @@ date: 2023-02-21T08:08:41.000Z
 tags: 
 ogImage: ./assets/images/2023/05/unknown-1-react.png
 featured: false
-draft: false
-tags:
-
+draft: true
+authors: 
+  - sebasptsch
 description:
   Placeholder description for imported post from Ghost Blog 
 ---

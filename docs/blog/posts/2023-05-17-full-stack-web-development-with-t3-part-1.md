@@ -6,6 +6,8 @@ tags: Programming,Web,Workshop,Advanced
 ogImage: ./assets/images/2023/05/Copy_of_ProgSoc_Git_Workshop_1.jpg
 featured: false
 draft: false
+authors:
+  - sebasptsch
 tags:
   - Programming
   - Web
@@ -20,6 +22,8 @@ Intro
 =====
 
 Welcome to the ProgSoc T3 Workshop, in this workshop we’ll be learning how to build a full-stack application using common practices and modern tooling unlike you’ll find at UTS.
+
+<!-- more -->
 
 What You’ll Learn
 -----------------

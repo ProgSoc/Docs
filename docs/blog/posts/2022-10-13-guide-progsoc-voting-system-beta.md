@@ -5,13 +5,15 @@ date: 2022-10-13T05:48:07.000Z
 tags: Project
 featured: false
 draft: false
+authors:
+  - arduano
 tags:
   - Project
 description:
   Placeholder description for imported post from Ghost Blog 
 ---
 I've been asked to make a quick guide to using the voting system I've been developing. Keep in mind that there are still more features to add, and I will hopefully get most of it done before other societies' AGMs begin. But as of writing, the system works well and has been stress tested by a room of people.
-
+<!-- more -->
 How to use
 ----------
 

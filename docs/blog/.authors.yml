@@ -5,3 +5,15 @@ authors:
     avatar: assets/images/avatars/sebasptsch.png
     slug: sebasptsch
     url: https://sebasptsch.dev
+  realvishy:
+    name: Vishwas Parpattegar
+    description: Marketing 2024, Events 2025
+    avatar: assets/images/avatars/realvishy.jpeg
+    slug: realvishy
+    url: https://github.com/RealVishy
+  arduano:
+    name: Leo
+    description: President 2023
+    avatar: assets/images/avatars/leo.png
+    slug: arduano
+    url: https://github.com/arduano

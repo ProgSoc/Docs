@@ -2,7 +2,8 @@
 title: (OLD) Getting started with NixOS Desktop with Flakes
 slug: getting-started-with-nixos
 date: 2023-12-06T11:16:20.000Z
-tags: Nix,Advanced
+authors: 
+  - arduano
 featured: false
 draft: false
 tags:
@@ -12,6 +13,8 @@ description:
   Placeholder description for imported post from Ghost Blog 
 ---
 Hey! This is a bit of a weird post for ProgSoc to make, but I've been trying to learn NixOS and have been frustrated with the fragmented information about how to get started, especially with the new "flakes" beta feature that Nix is slowly transitioning over to.
+
+<!-- more -->
 
 This post serves as:
 

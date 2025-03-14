@@ -6,6 +6,9 @@ tags: Beginner
 ogImage: ./assets/images/2023/06/coderpad-regex-the-complete-guide.jpg
 featured: false
 draft: false
+authors:
+  - arduano
+  - sebasptsch
 tags:
   - Beginner
 description:
@@ -19,43 +22,28 @@ Regular Expressions were devised at the same time as the first computers as peop
 
 Without Regex (Regular Expressions), the problem becomes significantly more complicated with many nested logical comparisons with chained logical operators, if/or/and. Whilst regex itself may look complicated and confusing at first, once you've got the basic rules down it becomes a _little_ less foreign.
 
+<!-- more -->
+
 Examples
 --------
 
 A popular example of regex use is checking if an Email address is valid. You'll probably come across this on any site that uses email addresses for login and registration. Here is an example expression that would match emails:
 
-    ^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$
-    
-
-[
+`^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$`
 
 RegExr: Learn, Build, & Test RegEx
 
 RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).
 
-![](https://regexr.com/assets/icons/apple-touch-icon.png?1)RegExr
-
-![](https://regexr.com/assets/card.png)
-
-](https://regexr.com/3e48o)
+https://regexr.com/3e48o
 
 Tip: you can play around with the text in the above website, and it highlights the matched text.
 
 Another example of an effective application of regex would be the "Bot Problem" question from the previous programming competition, with the appropriate expression being the following:
 
-    ^[A-Z][a-z]+[A-Z][a-z]+[0-9]{3}$
+`^[A-Z][a-z]+[A-Z][a-z]+[0-9]{3}$`
 
-[
-
-RegExr: Learn, Build, & Test RegEx
-
-RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).
-
-![](https://regexr.com/assets/icons/apple-touch-icon.png?1)RegExr
-
-![](https://regexr.com/assets/card.png)
-
-](https://regexr.com/7g1t7)
+https://regexr.com/7g1t7
 
 Although explaining all of regex in one post would be nearly impossible, we'll explain the basics, including how the bot problem regex works.
 
@@ -107,15 +95,15 @@ So let's say we want to match a string that has 2 names (one uppercase character
 
 Putting it all together, we get:
 
-    ^[A-Z][a-z]+[A-Z][a-z]+[0-9]{3}$
+`^[A-Z][a-z]+[A-Z][a-z]+[0-9]{3}$`
 
 Now there's multiple ways we can change this around. For example, the name part repeats twice, so we could do something like:
 
-    ^([A-Z][a-z]+){2}[0-9]{3}$
+`^([A-Z][a-z]+){2}[0-9]{3}$`
 
 Putting the name into a group, and making it repeat twice. We can also replace `[0-9]` with `\d` because they're the same thing, leaving us with:
 
-    ^([A-Z][a-z]+){2}\d{3}$
+`^([A-Z][a-z]+){2}\d{3}$`
 
 But yeah at this point it's up to personal preference, I just hope that this was a descriptive example.
 

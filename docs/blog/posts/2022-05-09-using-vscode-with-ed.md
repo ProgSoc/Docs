@@ -2,9 +2,10 @@
 title: Using VSCode with Ed
 slug: using-vscode-with-edstem
 date: 2022-05-09T11:09:07.000Z
-tags: Beginner,UTS Info
 featured: false
 draft: false
+authors:
+    - sebasptsch
 tags:
   - Beginner
   - UTS Info
@@ -14,6 +15,8 @@ description:
 If you're studying computer science, I.T., or software engineering the odds are high that you would've used the platform Ed at some point to do programming assessments. But, what you might've not come across are some awesome features that are part of most programming IDEs like autocomplete, IntelliSense, and the ability to use a wide range of languages and tools.
 
 Whilst Ed tries its best to do these things, because of its web-based nature it is severely limited so, I'm going to go through how to set up Visual Studio Code to connect to Ed for all your programming education needs.
+
+<!-- more -->
 
 The Install
 -----------

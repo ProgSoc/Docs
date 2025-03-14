@@ -9,6 +9,8 @@ tags:
   - Beginner
   - Getting Started
   - Programming
+authors:
+  - sebasptsch
 description:
   Placeholder description for imported post from Ghost Blog 
 ---
@@ -19,6 +21,8 @@ Let me tell you that there's a better way.
 IntelliJ Idea, for free with your university email does all the setup for you. It automatically installs the correct Java version. It gives you a starter project for JavaFX and has advanced features like automatic imports and inbuilt documentation.
 
 Rather than spending weeks messing around trying to get the right versions of Java and antiquated versions of JavaFX to work together you can simply avoid all the fuss and get a better experience for it.
+
+<!-- more -->
 
 [
 

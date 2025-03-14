@@ -2,10 +2,11 @@
 title: A comprehensive introduction to React hooks
 slug: a-comprehensive-guide-to-react-hooks
 date: 2023-07-21T07:30:31.000Z
-tags: Beginner,Web
 ogImage: https://images.unsplash.com/photo-1627232826792-c5e753b1e985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDY2fHxob29rfGVufDB8fHx8MTY4OTkyNDU1Nnww&ixlib=rb-4.0.3&q=80&w=2000
 featured: false
 draft: false
+authors:
+  - arduano
 tags:
   - Beginner
   - Web
@@ -20,6 +21,8 @@ Before going into hooks, let's first have a quick recap of the basics of React:
 *   Props are the arguments to a component, which look like HTML attributes.
 *   The component function is called every time the component re-renders
 *   Components choose to re-render when their parent component re-renders, or when their state updates (when a useState's "set" function is invoked).
+
+<!-- more -->
 
 ![](./assets/images/2023/07/image-11.png)
 
