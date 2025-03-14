@@ -2,7 +2,6 @@
 title: ProgSoc Docs
 slug: progsoc-docs
 date: 2023-09-08T01:19:44.000Z
-tags: 
 featured: false
 draft: true
 description:

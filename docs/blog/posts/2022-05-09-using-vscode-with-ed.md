@@ -6,7 +6,7 @@ featured: false
 draft: false
 authors:
     - sebasptsch
-tags:
+categories:
   - Beginner
   - UTS Info
 description:

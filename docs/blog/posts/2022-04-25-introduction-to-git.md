@@ -2,13 +2,13 @@
 title: Introduction to Git
 slug: intro-to-git
 date: 2022-04-25T08:12:52.000Z
-tags: Getting Started,Workshop,Programming
+categories: Getting Started,Workshop,Programming
 ogImage: ./assets/images/2022/04/GIT_Event_Facebook_Event_Cover.png
 featured: false
 draft: false
 authors:
   - sebasptsch
-tags:
+categories:
   - Getting Started
   - Workshop
   - Programming

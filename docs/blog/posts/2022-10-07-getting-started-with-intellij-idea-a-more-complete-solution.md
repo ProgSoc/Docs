@@ -2,10 +2,10 @@
 title: Getting Started with IntelliJ IDEA - A more complete solution
 slug: getting-started-with-intellij
 date: 2022-10-07T13:13:51.000Z
-tags: Beginner,Getting Started,Programming
+categories: Beginner,Getting Started,Programming
 featured: false
 draft: false
-tags:
+categories:
   - Beginner
   - Getting Started
   - Programming

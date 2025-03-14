@@ -2,12 +2,12 @@
 title: "Guide: ProgSoc Voting System [beta]"
 slug: guide-progsoc-voting-system-beta
 date: 2022-10-13T05:48:07.000Z
-tags: Project
+categories: Project
 featured: false
 draft: false
 authors:
   - arduano
-tags:
+categories:
   - Project
 description:
   Placeholder description for imported post from Ghost Blog 

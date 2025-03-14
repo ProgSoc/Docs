@@ -2,13 +2,13 @@
 title: Blazingly Fast Abstractions using Generics
 slug: blazingly-fast-code-using-generics
 date: 2021-10-01T13:20:40.000Z
-tags: Programming,Advanced,Abstraction,C#
+categories: Programming,Advanced,Abstraction,C#
 ogImage: ./assets/images/2021/10/20a66125-49bd-42ac-9761-f04d2cc31a43-1-.png
 featured: false
 draft: false
 authors:
   - arduano
-tags:
+categories:
   - Programming
   - Advanced
   - Abstraction

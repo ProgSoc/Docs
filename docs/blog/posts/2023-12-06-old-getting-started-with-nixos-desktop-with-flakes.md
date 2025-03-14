@@ -6,7 +6,7 @@ authors:
   - arduano
 featured: false
 draft: false
-tags:
+categories:
   - Nix
   - Advanced
 description:

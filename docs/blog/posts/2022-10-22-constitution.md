@@ -2,7 +2,6 @@
 title: Constitution
 slug: constitution-page
 date: 2022-10-22T07:00:00.000Z
-tags: 
 featured: false
 draft: true
 description:

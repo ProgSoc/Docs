@@ -7,7 +7,7 @@ featured: false
 draft: false
 authors:
   - arduano
-tags:
+categories:
   - Workshop
   - Beginner
 description:

@@ -1,0 +1,95 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+  .md-header {
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .md-tabs {
+    /* display: none; */
+    background-color: transparent;
+  }
+
+  .md-main__inner {
+    margin: 0
+  }
+
+  md-main {
+    display: none;
+  }
+
+  .md-content {
+    display: none
+  }
+
+  @media screen and (min-width:60em) {
+    .md-sidebar--secondary {
+      display: none
+    }
+  }
+
+  @media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+      display: none
+    }
+  }
+
+  ol,
+  ul {
+    max-width: none;
+  }
+
+  .hp-header {
+    background-image: url("blog/assets/images/2021/11/richard-horvath-_nWaeTF6qo0-unsplash_o.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    display: absolute;
+  }
+
+
+  .cta-button {
+    background: white !important;
+    color: black !important;
+  }
+
+  @media only screen and (min-width: 900px) {
+
+    .cta-button {
+      background-color: rgba(255, 255, 255, 0.2) !important;
+      color: white !important;
+    }
+
+
+  }
+
+  .hp-header * {
+    opacity: 1 !important;
+    text-align: center;
+    color: white;
+  }
+
+  .hp-header .hero-text {
+    font-size: 12vw;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0px 0px 100px black;
+  }
+</style>
+<div class="hp-header">
+  <!--<h1 class="hero-text">&lt;HELLO <br>WORLD/&gt;</h1>-->
+  <h1 class="hero-text">&#123; HELLO <br>WORLD&#59; &#125;</h1>
+  <!-- <div class="cta">
+    <a class="hp-cta-button subscribe-button" href="https://activateuts.com.au/clubs/programmers-society-progsoc"
+      target="_blank"
+      style="background-color: rgba(255,255,255,0.2); color: white; padding: 14px 19px 14px 19px; border-radius: 360px; font-weight: 700; opacity: 100%;">Become
+      a Member</a>
+  </div> -->
+</div>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

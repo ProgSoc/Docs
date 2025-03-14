@@ -1,4 +1,4 @@
-site_name: ProgSoc Docs
+site_name: UTS Programmers' Society
 copyright: Copyright &copy; ProgSoc
 repo_url: https://github.com/ProgSoc/Docs
 edit_uri: edit/main/docs/
@@ -18,8 +18,8 @@ extra:
       link: https://www.youtube.com/@progsoc
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/ProgSoc
-    - icon: fontawesome/solid/globe
-      link: https://progsoc.org
+    # - icon: fontawesome/solid/globe
+    #   link: https://progsoc.org
 
 
 theme:

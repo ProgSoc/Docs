@@ -2,13 +2,13 @@
 title: Introduction to Rust
 slug: introduction-to-rust
 date: 2022-08-23T12:17:03.000Z
-tags: Programming,Advanced,Rust
+categories: Programming,Advanced,Rust
 ogImage: ./assets/images/2022/08/chrome_Omgt9RuzpB.png
 featured: false
 draft: false
 authors:
     - arduano
-tags:
+categories:
   - Programming
   - Advanced
   - Rust
