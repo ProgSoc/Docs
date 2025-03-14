@@ -97,7 +97,9 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      enabled: !ENV [CI, false]
+      enable_creation_date: true
   - tags
   - blog
   - social:
@@ -106,6 +108,17 @@ plugins:
       redirect_maps:
         'activate.md': 'https://www.activateuts.com.au/clubs/programmers-society-progsoc/?quickRegistration=true'
         'discord.md': 'https://discord.gg/uSgqcBsrjd'
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+  - git-committers:
+      enabled: !ENV [CI, false]
+      repository: progsoc/docs
+      branch: main
 
 nav:
   - Home: index.md
