@@ -100,6 +100,8 @@ plugins:
   - git-revision-date-localized
   - tags
   - blog
+  - social:
+      enabled: !ENV [CI, false]
 
 nav:
   - Welcome: index.md
