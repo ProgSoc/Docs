@@ -34,7 +34,21 @@ As time passes and the society evolves, the roles of the executives have changed
 
 ## Executive List
 
-### 2025 Executives (XXXVII) - Current
+### 2026 Executives (XXXVIII) - Current
+
+- `President` Ben Walters
+- `Vice President` Brendan Hin
+- `Secretary` Vishwas Parpattegar
+- `Treasurer` Sebastian Pietschner
+- `Marketing` Sheehann T
+- `Events`
+    - Moody T
+    - Yunus S
+    - Axel A
+    - Jason S
+    - Matthew Y
+
+### 2025 Executives (XXXVII) 
 
 - `President` Sebastian Pietschner
 - `Vice President` Brendan Hin
