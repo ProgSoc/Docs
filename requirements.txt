@@ -1,7 +1,7 @@
 mkdocs==1.6.1
 mkdocs-material==9.6.23
 pymdown-extensions==10.14.3
-mkdocs-git-revision-date-localized-plugin==1.4.4
+mkdocs-git-revision-date-localized-plugin==1.5.0
 pillow==12.0.0
 cairosvg==2.8.2
 mkdocs-redirects==1.2.2
