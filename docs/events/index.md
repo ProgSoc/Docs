@@ -12,7 +12,26 @@ One of the main things that ProgSoc does at UTS is run workshops on topics that 
 - `11-12/02` **O'Day Semester 1**
 - `26/02` ProgSoc x CSEC Welcome Drinks
 - `07/03` Python Workshop
-- `14/03` Java Workshop 
+- `13/03` Java Workshop 
+- `28/03` Git Workshop
+- `04/04` Introduction to Linux and Server Hosting with the PC Society
+- `11/04` Beginners' SQL
+- `02/05` Introduction to Vim Motions
+- `08/05` Programmers' Hangout (1)
+- `25/06` UTS ProgSoc Programming Competition supported by WiseTech Global - Tech Fest 2025
+- `23/07` **O'Day Semester 2**
+- `07/08` Introduction to Programming (Java and Python)
+- `22/08` ProgSoc Meetups (Week 4)
+- `26/08` React Workshop 2025
+- `04/09` Intro to Embedded Workshop (Part 1)
+- `05/09` ProgSoc Meetups (Week 6)
+- `11/09` Intro to Embedded Workshop (Part 2)
+- `18/09` Rust Workshop
+- `25/09` ProgSoc Meetups (StuVac)
+- `02/10` Docker Workshop
+- `17/10` ProgSoc Meetups (Week 10)
+- `23/10` UTS FEIT End-of-Sem Party
+- `27/10` AGM 2025
 
 ## 2024
 
