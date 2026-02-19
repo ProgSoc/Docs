@@ -53,7 +53,7 @@ As time passes and the society evolves, the roles of the executives have changed
 - `President` Sebastian Pietschner
 - `Vice President` Brendan Hin
 - `Secretary` Audrey Santoso
-- `Treasurer` Jess Swain
+- `Treasurer` Jess S
 - `Marketing` Moody T
 - `Events`
     - Vishwas Parpattegar
